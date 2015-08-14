@@ -1,0 +1,116 @@
+/** Fields **/
+textarea,
+textarea.sr,
+input[type="text"],
+div.selection input {
+	display: block;
+	height: auto !important;
+	width: 100%;
+	height: 26px;
+	padding: 4px 6px;
+	line-height: 1em;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+div.selection input {
+	position: relative;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin: 0;
+	border-right: 0;
+}
+div.selection {
+	border: none;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	height: 26px !important;
+	top: 0 !important;
+}
+a.selectionbtn {
+	border-radius: 0 3px 3px 0;
+	height: 26px !important;
+	width: 20px !important;
+}
+a.selectionbtn,
+a.menu {
+	padding: 0;
+	border: 1px solid #ccc;
+}
+a.selectionbtn:hover,
+a.menu:hover {
+	padding: 0;
+}
+a.selectionbtn img,
+a.menu img {
+	position: relative !Important;
+	top: auto !important;
+	left: auto !important;
+	width: 0;
+	height: 0;
+	padding-right: 20px;
+	padding-bottom: 26px;
+	background-image: url(https://lh6.googleusercontent.com/-DIzgu7iZgTY/UwzYCVJ0QmI/AAAAAAAAGyQ/viUEx5zYkDI/w14-h8-no/black-down-arrow.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+a.menu {
+/*	 position: relative;
+	float: left;
+	top: auto !important;
+	left: auto !important; */
+}
+a.menu img {
+	padding-bottom: 21px;
+}
+.btntextdiv, .btn/*buttons*/
+ {  -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+	background-color: #e8e8e8;
+    border: 0px solid #fff;
+    padding: 5px;
+	}
+.btn:active {
+	padding-top: 15px;
+        margin-bottom: -1px;
+}
+.btn, .btn:hover, .btn:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #000;
+	
+}
+
+.btn {
+	background-color: #3fb8e8;
+	/*box-shadow: 0px 1px 0px 0px #56A0D3;*/
+}
+.btn:hover {
+
+	background-color: #DEE0E0;
+	font-weight: bold;
+	
+}
+.btn:active {
+	box-shadow: 0px 1px 0px 0px #56A0D3;
+}
+	
+   /*tabs*/
+   .tab, a.btn.f1
+   {
+   box-shadow: 0px 1px 0px 0px #fff;
+   
+   }
+   
+ 
+
+

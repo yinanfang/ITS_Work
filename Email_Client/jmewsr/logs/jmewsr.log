@@ -1,0 +1,1336 @@
+
+INFO -- 04/05/12 12:59:31 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 12:59:31 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 12:59:31 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 12:59:32 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 12:59:32 -- Retrieving messages
+DEBUG -- 04/05/12 12:59:32 -- There are 0 messages
+DEBUG -- 04/05/12 12:59:32 -- End retrieving messages
+INFO -- 04/05/12 12:59:32 -- End Message List Generation Phase
+INFO -- 04/05/12 12:59:32 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 12:59:32 -- Begin creating ticket entries
+DEBUG -- 04/05/12 12:59:32 -- Begin looping through message list
+DEBUG -- 04/05/12 12:59:32 -- End looping through message list
+INFO -- 04/05/12 12:59:32 -- End Ticket List Generation Phase
+INFO -- 04/05/12 12:59:32 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 12:59:32 -- Begin looping through ticket list
+DEBUG -- 04/05/12 12:59:32 -- End looping through ticket list
+INFO -- 04/05/12 12:59:32 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:09:50 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:09:50 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:09:50 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:09:52 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:09:52 -- Retrieving messages
+DEBUG -- 04/05/12 13:09:52 -- There are 1 messages
+DEBUG -- 04/05/12 13:09:52 -- End retrieving messages
+INFO -- 04/05/12 13:09:52 -- End Message List Generation Phase
+INFO -- 04/05/12 13:09:52 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:09:52 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:09:52 -- Begin looping through message list
+DEBUG -- 04/05/12 13:09:52 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:09:52 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:09:52 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:09:52 -- Begin Query for EmailIn form with email: oris@unc.edu
+ERROR -- 04/05/12 13:09:52 -- setResults getListFieldObjects ARException
+ERROR -- 04/05/12 13:09:52 -- setResults parseQualifications ARException
+ERROR -- 04/05/12 13:09:53 -- setResults getListEntryObjects ARException
+DEBUG -- 04/05/12 13:09:53 -- End Query for EmailIn form with email: oris@unc.edu
+DEBUG -- 04/05/12 13:09:53 -- Check email has EmailIn with email: oris@unc.edu
+INFO -- 04/05/12 13:11:49 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:11:49 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:11:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:11:50 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:11:50 -- Retrieving messages
+DEBUG -- 04/05/12 13:11:50 -- There are 1 messages
+DEBUG -- 04/05/12 13:11:50 -- End retrieving messages
+INFO -- 04/05/12 13:11:50 -- End Message List Generation Phase
+INFO -- 04/05/12 13:11:50 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:11:50 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:11:50 -- Begin looping through message list
+DEBUG -- 04/05/12 13:11:50 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:11:50 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:11:50 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:11:50 -- Begin Query for EmailIn form with email: DEBBIE_ABTERM@unc.edu
+ERROR -- 04/05/12 13:11:51 -- setResults getListFieldObjects ARException
+ERROR -- 04/05/12 13:11:51 -- setResults parseQualifications ARException
+ERROR -- 04/05/12 13:11:51 -- setResults getListEntryObjects ARException
+DEBUG -- 04/05/12 13:11:51 -- End Query for EmailIn form with email: DEBBIE_ABTERM@unc.edu
+DEBUG -- 04/05/12 13:11:51 -- Check email has EmailIn with email: DEBBIE_ABTERM@unc.edu
+INFO -- 04/05/12 13:12:48 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:12:48 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:12:53 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:12:53 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:12:55 -- Retrieving messages
+DEBUG -- 04/05/12 13:12:55 -- There are 1 messages
+DEBUG -- 04/05/12 13:13:05 -- End retrieving messages
+INFO -- 04/05/12 13:13:08 -- End Message List Generation Phase
+INFO -- 04/05/12 13:13:08 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:13:08 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:13:08 -- Begin looping through message list
+DEBUG -- 04/05/12 13:13:08 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:13:10 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:14:04 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:14:08 -- Begin Query for EmailIn form with email: DEBBIE_ABTERM@unc.edu
+ERROR -- 04/05/12 13:14:39 -- setResults getListFieldObjects ARException
+ERROR -- 04/05/12 13:15:32 -- setResults parseQualifications ARException
+ERROR -- 04/05/12 13:15:50 -- setResults getListEntryObjects ARException
+DEBUG -- 04/05/12 13:15:52 -- End Query for EmailIn form with email: DEBBIE_ABTERM@unc.edu
+DEBUG -- 04/05/12 13:15:52 -- Check email has EmailIn with email: DEBBIE_ABTERM@unc.edu
+INFO -- 04/05/12 13:16:36 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:16:36 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:16:38 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:16:39 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:16:39 -- Retrieving messages
+DEBUG -- 04/05/12 13:16:39 -- There are 0 messages
+DEBUG -- 04/05/12 13:16:41 -- End retrieving messages
+INFO -- 04/05/12 13:16:42 -- End Message List Generation Phase
+INFO -- 04/05/12 13:16:42 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:16:42 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:16:42 -- Begin looping through message list
+DEBUG -- 04/05/12 13:16:42 -- End looping through message list
+INFO -- 04/05/12 13:16:43 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:16:43 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:16:46 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:16:46 -- End looping through ticket list
+INFO -- 04/05/12 13:16:48 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:19:12 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:19:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:19:13 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:19:14 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:19:14 -- Retrieving messages
+DEBUG -- 04/05/12 13:19:14 -- There are 0 messages
+DEBUG -- 04/05/12 13:19:14 -- End retrieving messages
+INFO -- 04/05/12 13:19:14 -- End Message List Generation Phase
+INFO -- 04/05/12 13:19:14 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:19:14 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:19:14 -- Begin looping through message list
+DEBUG -- 04/05/12 13:19:14 -- End looping through message list
+INFO -- 04/05/12 13:19:14 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:19:14 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:19:14 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:19:14 -- End looping through ticket list
+INFO -- 04/05/12 13:19:14 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:20:16 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:20:16 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:20:17 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:20:17 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:20:17 -- Retrieving messages
+DEBUG -- 04/05/12 13:20:17 -- There are 1 messages
+DEBUG -- 04/05/12 13:20:17 -- End retrieving messages
+INFO -- 04/05/12 13:20:17 -- End Message List Generation Phase
+INFO -- 04/05/12 13:20:18 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:20:18 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:20:18 -- Begin looping through message list
+DEBUG -- 04/05/12 13:20:18 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:20:18 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:20:18 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:20:18 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:20:18 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:20:18 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:20:30 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:20:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:20:31 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:20:32 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:20:33 -- Retrieving messages
+DEBUG -- 04/05/12 13:20:33 -- There are 1 messages
+DEBUG -- 04/05/12 13:20:40 -- End retrieving messages
+INFO -- 04/05/12 13:20:42 -- End Message List Generation Phase
+INFO -- 04/05/12 13:20:42 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:20:42 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:20:42 -- Begin looping through message list
+DEBUG -- 04/05/12 13:20:42 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:20:46 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:20:59 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:21:08 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:21:20 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:21:23 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:22:52 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:22:52 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:22:56 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:22:57 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:22:58 -- Retrieving messages
+DEBUG -- 04/05/12 13:22:58 -- There are 1 messages
+DEBUG -- 04/05/12 13:23:03 -- End retrieving messages
+INFO -- 04/05/12 13:23:04 -- End Message List Generation Phase
+INFO -- 04/05/12 13:23:04 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:23:04 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:23:04 -- Begin looping through message list
+DEBUG -- 04/05/12 13:23:04 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:23:05 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:23:15 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:23:18 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:23:31 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:23:34 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:24:41 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:24:41 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:24:43 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:24:44 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:24:45 -- Retrieving messages
+DEBUG -- 04/05/12 13:24:45 -- There are 1 messages
+DEBUG -- 04/05/12 13:24:50 -- End retrieving messages
+INFO -- 04/05/12 13:24:51 -- End Message List Generation Phase
+INFO -- 04/05/12 13:24:51 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:24:51 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:24:51 -- Begin looping through message list
+DEBUG -- 04/05/12 13:24:51 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:24:52 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:24:58 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:25:01 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:25:06 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:25:07 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:27:00 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:27:00 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:27:01 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:27:02 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:27:03 -- Retrieving messages
+DEBUG -- 04/05/12 13:27:03 -- There are 0 messages
+DEBUG -- 04/05/12 13:27:04 -- End retrieving messages
+INFO -- 04/05/12 13:27:05 -- End Message List Generation Phase
+INFO -- 04/05/12 13:27:05 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:27:05 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:27:05 -- Begin looping through message list
+DEBUG -- 04/05/12 13:27:05 -- End looping through message list
+INFO -- 04/05/12 13:27:06 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:27:06 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:27:10 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:27:11 -- End looping through ticket list
+INFO -- 04/05/12 13:27:12 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:27:51 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:27:51 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:27:52 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:27:53 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:27:54 -- Retrieving messages
+DEBUG -- 04/05/12 13:27:54 -- There are 1 messages
+DEBUG -- 04/05/12 13:28:00 -- End retrieving messages
+INFO -- 04/05/12 13:28:01 -- End Message List Generation Phase
+INFO -- 04/05/12 13:28:01 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:28:01 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:28:01 -- Begin looping through message list
+DEBUG -- 04/05/12 13:28:01 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:28:03 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:28:16 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:28:18 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:28:21 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:28:23 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:28:37 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:28:37 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:28:38 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:28:39 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:28:40 -- Retrieving messages
+DEBUG -- 04/05/12 13:28:40 -- There are 1 messages
+DEBUG -- 04/05/12 13:28:44 -- End retrieving messages
+INFO -- 04/05/12 13:28:45 -- End Message List Generation Phase
+INFO -- 04/05/12 13:28:45 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:28:45 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:28:45 -- Begin looping through message list
+DEBUG -- 04/05/12 13:28:45 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:28:46 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:29:01 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:29:03 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:29:10 -- setResults getListFieldObjects ARException
+DEBUG -- 04/05/12 13:29:12 -- Check email has EmailIn with email: physicsremedy@unc.edu
+INFO -- 04/05/12 13:30:25 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:30:25 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:30:29 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:30:29 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:30:30 -- Retrieving messages
+DEBUG -- 04/05/12 13:30:30 -- There are 0 messages
+DEBUG -- 04/05/12 13:30:31 -- End retrieving messages
+INFO -- 04/05/12 13:30:33 -- End Message List Generation Phase
+INFO -- 04/05/12 13:30:33 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:30:33 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:30:33 -- Begin looping through message list
+DEBUG -- 04/05/12 13:30:33 -- End looping through message list
+INFO -- 04/05/12 13:30:35 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:30:35 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:30:39 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:30:40 -- End looping through ticket list
+INFO -- 04/05/12 13:30:41 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:32:17 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:32:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:32:20 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:32:25 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:32:27 -- Retrieving messages
+DEBUG -- 04/05/12 13:32:27 -- There are 0 messages
+DEBUG -- 04/05/12 13:32:29 -- End retrieving messages
+INFO -- 04/05/12 13:32:32 -- End Message List Generation Phase
+INFO -- 04/05/12 13:32:32 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:32:32 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:32:32 -- Begin looping through message list
+DEBUG -- 04/05/12 13:32:32 -- End looping through message list
+INFO -- 04/05/12 13:32:34 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:32:34 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:32:39 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:32:41 -- End looping through ticket list
+INFO -- 04/05/12 13:32:42 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:32:47 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:32:48 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:32:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:32:50 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:32:51 -- Retrieving messages
+DEBUG -- 04/05/12 13:32:51 -- There are 1 messages
+DEBUG -- 04/05/12 13:32:58 -- End retrieving messages
+INFO -- 04/05/12 13:32:59 -- End Message List Generation Phase
+INFO -- 04/05/12 13:32:59 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:32:59 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:32:59 -- Begin looping through message list
+DEBUG -- 04/05/12 13:32:59 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:33:01 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:33:19 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:33:56 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:34:57 -- setResults getListFieldObjects ARException
+INFO -- 04/05/12 13:47:26 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:47:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:47:28 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:29 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:30 -- Retrieving messages
+DEBUG -- 04/05/12 13:47:30 -- There are 0 messages
+DEBUG -- 04/05/12 13:47:31 -- End retrieving messages
+INFO -- 04/05/12 13:47:33 -- End Message List Generation Phase
+INFO -- 04/05/12 13:47:33 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:47:33 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:47:33 -- Begin looping through message list
+DEBUG -- 04/05/12 13:47:33 -- End looping through message list
+INFO -- 04/05/12 13:47:37 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:47:37 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:47:38 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:39 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:40 -- Retrieving messages
+DEBUG -- 04/05/12 13:47:40 -- There are 0 messages
+DEBUG -- 04/05/12 13:47:41 -- End retrieving messages
+INFO -- 04/05/12 13:47:43 -- End Message List Generation Phase
+INFO -- 04/05/12 13:47:43 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:47:43 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:47:43 -- Begin looping through message list
+DEBUG -- 04/05/12 13:47:43 -- End looping through message list
+INFO -- 04/05/12 13:47:47 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:47:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:47:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:50 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:47:50 -- Retrieving messages
+DEBUG -- 04/05/12 13:47:50 -- There are 0 messages
+DEBUG -- 04/05/12 13:47:51 -- End retrieving messages
+INFO -- 04/05/12 13:47:53 -- End Message List Generation Phase
+INFO -- 04/05/12 13:47:53 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:47:53 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:47:53 -- Begin looping through message list
+DEBUG -- 04/05/12 13:47:53 -- End looping through message list
+INFO -- 04/05/12 13:47:54 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:47:54 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:48:00 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:48:01 -- End looping through ticket list
+INFO -- 04/05/12 13:48:02 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:48:05 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:48:05 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:48:08 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:09 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:11 -- Retrieving messages
+DEBUG -- 04/05/12 13:48:11 -- There are 0 messages
+DEBUG -- 04/05/12 13:48:12 -- End retrieving messages
+INFO -- 04/05/12 13:48:38 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:48:38 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:48:39 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:40 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:41 -- Retrieving messages
+DEBUG -- 04/05/12 13:48:41 -- There are 0 messages
+DEBUG -- 04/05/12 13:48:42 -- End retrieving messages
+INFO -- 04/05/12 13:48:43 -- End Message List Generation Phase
+INFO -- 04/05/12 13:48:43 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:48:43 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:48:43 -- Begin looping through message list
+DEBUG -- 04/05/12 13:48:43 -- End looping through message list
+INFO -- 04/05/12 13:48:47 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:48:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:48:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:49 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:48:51 -- Retrieving messages
+DEBUG -- 04/05/12 13:48:51 -- There are 0 messages
+DEBUG -- 04/05/12 13:48:51 -- End retrieving messages
+INFO -- 04/05/12 13:48:53 -- End Message List Generation Phase
+INFO -- 04/05/12 13:48:53 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:48:53 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:48:53 -- Begin looping through message list
+DEBUG -- 04/05/12 13:48:53 -- End looping through message list
+INFO -- 04/05/12 13:48:55 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:48:55 -- Begin Ticket Generation Phase
+INFO -- 04/05/12 13:49:00 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:49:00 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:49:02 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:49:03 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:49:03 -- Retrieving messages
+DEBUG -- 04/05/12 13:49:03 -- There are 1 messages
+DEBUG -- 04/05/12 13:49:09 -- End retrieving messages
+INFO -- 04/05/12 13:49:10 -- End Message List Generation Phase
+INFO -- 04/05/12 13:49:10 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:49:11 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:49:11 -- Begin looping through message list
+DEBUG -- 04/05/12 13:49:11 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:49:13 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:49:30 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:49:33 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 13:50:35 -- setResults getListFieldObjects ARException
+INFO -- 04/05/12 13:54:50 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:54:50 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:54:56 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:54:57 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:54:59 -- Retrieving messages
+DEBUG -- 04/05/12 13:54:59 -- There are 0 messages
+DEBUG -- 04/05/12 13:55:00 -- End retrieving messages
+INFO -- 04/05/12 13:55:01 -- End Message List Generation Phase
+INFO -- 04/05/12 13:55:01 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:55:01 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:55:01 -- Begin looping through message list
+DEBUG -- 04/05/12 13:55:01 -- End looping through message list
+INFO -- 04/05/12 13:55:02 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:55:02 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:55:06 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:55:07 -- End looping through ticket list
+INFO -- 04/05/12 13:55:09 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:55:14 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:55:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:55:17 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:55:18 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:55:19 -- Retrieving messages
+DEBUG -- 04/05/12 13:55:19 -- There are 0 messages
+DEBUG -- 04/05/12 13:55:20 -- End retrieving messages
+INFO -- 04/05/12 13:55:22 -- End Message List Generation Phase
+INFO -- 04/05/12 13:55:22 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:55:22 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:55:22 -- Begin looping through message list
+DEBUG -- 04/05/12 13:55:22 -- End looping through message list
+INFO -- 04/05/12 13:55:25 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:55:25 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:55:28 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:55:29 -- End looping through ticket list
+INFO -- 04/05/12 13:55:29 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:55:35 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:55:35 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:55:36 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:55:37 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:55:39 -- Retrieving messages
+DEBUG -- 04/05/12 13:55:39 -- There are 0 messages
+DEBUG -- 04/05/12 13:55:46 -- End retrieving messages
+INFO -- 04/05/12 13:55:48 -- End Message List Generation Phase
+INFO -- 04/05/12 13:55:48 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:55:48 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:55:48 -- Begin looping through message list
+DEBUG -- 04/05/12 13:55:48 -- End looping through message list
+INFO -- 04/05/12 13:55:50 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:55:50 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:55:56 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:55:57 -- End looping through ticket list
+INFO -- 04/05/12 13:55:58 -- End Ticket Generation Phase
+INFO -- 04/05/12 13:56:37 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 13:56:37 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 13:56:38 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 13:56:39 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 13:56:40 -- Retrieving messages
+DEBUG -- 04/05/12 13:56:40 -- There are 1 messages
+DEBUG -- 04/05/12 13:56:46 -- End retrieving messages
+INFO -- 04/05/12 13:56:47 -- End Message List Generation Phase
+INFO -- 04/05/12 13:56:47 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 13:56:47 -- Begin creating ticket entries
+DEBUG -- 04/05/12 13:56:47 -- Begin looping through message list
+DEBUG -- 04/05/12 13:56:47 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 13:56:48 -- End Retrieving message from message list
+DEBUG -- 04/05/12 13:57:00 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 13:57:03 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 13:57:16 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 13:57:16 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 13:57:20 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 13:57:20 -- Begin creating ticket entry
+DEBUG -- 04/05/12 13:57:31 -- End creating ticket entry
+DEBUG -- 04/05/12 13:57:31 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 13:57:32 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 13:57:32 -- End get info from EmailIn form
+DEBUG -- 04/05/12 13:57:32 -- End looping through message list
+INFO -- 04/05/12 13:57:34 -- End Ticket List Generation Phase
+INFO -- 04/05/12 13:57:34 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 13:57:39 -- Begin looping through ticket list
+DEBUG -- 04/05/12 13:57:41 -- Begin createRFSTicket
+ERROR -- 04/05/12 13:57:49 -- createRFSTicket entry ARException
+DEBUG -- 04/05/12 13:58:00 -- END createRFSTicket
+DEBUG -- 04/05/12 13:58:00 -- Begin add entry id to entry id list
+DEBUG -- 04/05/12 13:58:02 -- End add entry id to entry id list
+DEBUG -- 04/05/12 13:58:03 -- End looping through ticket list
+INFO -- 04/05/12 13:58:04 -- End Ticket Generation Phase
+INFO -- 04/05/12 14:00:07 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 14:00:07 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 14:00:11 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 14:00:12 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 14:00:12 -- Retrieving messages
+DEBUG -- 04/05/12 14:00:12 -- There are 0 messages
+DEBUG -- 04/05/12 14:00:13 -- End retrieving messages
+INFO -- 04/05/12 14:00:14 -- End Message List Generation Phase
+INFO -- 04/05/12 14:00:14 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 14:00:15 -- Begin creating ticket entries
+DEBUG -- 04/05/12 14:00:15 -- Begin looping through message list
+DEBUG -- 04/05/12 14:00:15 -- End looping through message list
+INFO -- 04/05/12 14:01:53 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 14:01:53 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 14:01:54 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 14:01:55 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 14:01:56 -- Retrieving messages
+DEBUG -- 04/05/12 14:01:56 -- There are 0 messages
+DEBUG -- 04/05/12 14:01:57 -- End retrieving messages
+INFO -- 04/05/12 14:02:01 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 14:02:01 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 14:02:03 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 14:02:04 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 14:02:04 -- Retrieving messages
+DEBUG -- 04/05/12 14:02:04 -- There are 1 messages
+DEBUG -- 04/05/12 14:02:08 -- End retrieving messages
+INFO -- 04/05/12 14:02:09 -- End Message List Generation Phase
+INFO -- 04/05/12 14:02:09 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 14:02:09 -- Begin creating ticket entries
+DEBUG -- 04/05/12 14:02:09 -- Begin looping through message list
+DEBUG -- 04/05/12 14:02:09 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 14:02:11 -- End Retrieving message from message list
+DEBUG -- 04/05/12 14:02:22 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 14:02:26 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 14:02:56 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 14:02:56 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 14:02:59 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 14:02:59 -- Begin creating ticket entry
+DEBUG -- 04/05/12 14:03:25 -- End creating ticket entry
+DEBUG -- 04/05/12 14:03:26 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 14:03:36 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 14:03:41 -- End get info from EmailIn form
+DEBUG -- 04/05/12 14:03:45 -- End looping through message list
+INFO -- 04/05/12 14:03:47 -- End Ticket List Generation Phase
+INFO -- 04/05/12 14:03:47 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 14:04:06 -- Begin looping through ticket list
+DEBUG -- 04/05/12 14:04:10 -- Begin createRFSTicket
+ERROR -- 04/05/12 14:04:56 -- createRFSTicket entry ARException
+DEBUG -- 04/05/12 14:06:35 -- END createRFSTicket
+DEBUG -- 04/05/12 14:06:35 -- Begin add entry id to entry id list
+DEBUG -- 04/05/12 14:06:36 -- End add entry id to entry id list
+DEBUG -- 04/05/12 14:06:38 -- End looping through ticket list
+INFO -- 04/05/12 14:06:39 -- End Ticket Generation Phase
+INFO -- 04/05/12 14:43:01 -- BEGIN JMEWSR
+INFO -- 04/05/12 14:43:01 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 14:43:01 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 14:43:02 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 14:43:02 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 14:43:02 -- Retrieving messages
+DEBUG -- 04/05/12 14:43:02 -- There are 0 messages
+DEBUG -- 04/05/12 14:43:02 -- End retrieving messages
+INFO -- 04/05/12 14:43:02 -- End Message List Generation Phase
+INFO -- 04/05/12 14:43:02 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 14:43:02 -- Begin creating ticket entries
+DEBUG -- 04/05/12 14:43:02 -- Begin looping through message list
+DEBUG -- 04/05/12 14:43:02 -- End looping through message list
+INFO -- 04/05/12 14:43:02 -- End Ticket List Generation Phase
+INFO -- 04/05/12 14:43:02 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 14:43:02 -- Begin looping through ticket list
+DEBUG -- 04/05/12 14:43:02 -- End looping through ticket list
+INFO -- 04/05/12 14:43:02 -- End Ticket Generation Phase
+INFO -- 04/05/12 14:43:02 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 14:43:02 -- End ticket (entry id) dump
+INFO -- 04/05/12 14:43:02 -- END JMEWSR
+INFO -- 04/05/12 15:42:42 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:42:42 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:42:42 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:42:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:42:52 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:42:52 -- Retrieving messages
+DEBUG -- 04/05/12 15:42:52 -- There are 1 messages
+DEBUG -- 04/05/12 15:42:59 -- End retrieving messages
+INFO -- 04/05/12 15:42:59 -- End Message List Generation Phase
+INFO -- 04/05/12 15:42:59 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:42:59 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:42:59 -- Begin looping through message list
+DEBUG -- 04/05/12 15:43:03 -- End looping through message list
+INFO -- 04/05/12 15:43:06 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:43:06 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:43:08 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:43:09 -- End looping through ticket list
+INFO -- 04/05/12 15:43:10 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:43:10 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:43:10 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:43:10 -- END JMEWSR
+INFO -- 04/05/12 15:43:14 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:43:14 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:43:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:43:16 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:43:17 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:43:17 -- Retrieving messages
+DEBUG -- 04/05/12 15:43:17 -- There are 2 messages
+DEBUG -- 04/05/12 15:43:25 -- End retrieving messages
+INFO -- 04/05/12 15:43:25 -- End Message List Generation Phase
+INFO -- 04/05/12 15:43:25 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:43:25 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:43:25 -- Begin looping through message list
+DEBUG -- 04/05/12 15:43:25 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:43:27 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:43:31 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:43:33 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:43:48 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:43:49 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:43:52 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:43:52 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:43:58 -- End creating ticket entry
+DEBUG -- 04/05/12 15:43:58 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:44:00 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:44:01 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:44:02 -- End looping through message list
+INFO -- 04/05/12 15:44:03 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:44:03 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:44:04 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:44:06 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:44:15 -- END createRFSTicket
+DEBUG -- 04/05/12 15:44:17 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYHAAA= to Processed folder
+DEBUG -- 04/05/12 15:44:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+ERROR -- 04/05/12 15:46:23 -- moveMessage error with moving item
+INFO -- 04/05/12 15:47:42 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:47:42 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:47:42 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:47:51 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:47:52 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:47:52 -- Retrieving messages
+DEBUG -- 04/05/12 15:47:52 -- There are 3 messages
+DEBUG -- 04/05/12 15:48:02 -- End retrieving messages
+INFO -- 04/05/12 15:48:02 -- End Message List Generation Phase
+INFO -- 04/05/12 15:48:02 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:48:03 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:48:03 -- Begin looping through message list
+DEBUG -- 04/05/12 15:48:04 -- End looping through message list
+INFO -- 04/05/12 15:48:05 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:48:05 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:48:05 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:48:06 -- End looping through ticket list
+INFO -- 04/05/12 15:48:07 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:48:07 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:48:07 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:48:07 -- END JMEWSR
+INFO -- 04/05/12 15:48:11 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:48:11 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:48:11 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:48:12 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:48:13 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:48:13 -- Retrieving messages
+DEBUG -- 04/05/12 15:48:13 -- There are 4 messages
+DEBUG -- 04/05/12 15:48:22 -- End retrieving messages
+INFO -- 04/05/12 15:48:22 -- End Message List Generation Phase
+INFO -- 04/05/12 15:48:22 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:48:22 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:48:22 -- Begin looping through message list
+DEBUG -- 04/05/12 15:48:22 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:48:24 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:48:28 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:48:28 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:48:35 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:48:35 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:48:38 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:48:38 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:48:44 -- End creating ticket entry
+DEBUG -- 04/05/12 15:48:44 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:48:47 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:48:48 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:48:49 -- End looping through message list
+INFO -- 04/05/12 15:48:50 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:48:50 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:48:51 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:48:52 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:49:06 -- END createRFSTicket
+DEBUG -- 04/05/12 15:49:10 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYMAAA= to Processed folder
+DEBUG -- 04/05/12 15:49:10 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+ERROR -- 04/05/12 15:51:12 -- moveMessage error with moving item
+INFO -- 04/05/12 15:51:44 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:51:44 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:51:44 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:51:55 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:51:56 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:51:56 -- Retrieving messages
+DEBUG -- 04/05/12 15:51:56 -- There are 0 messages
+DEBUG -- 04/05/12 15:52:05 -- End retrieving messages
+INFO -- 04/05/12 15:52:05 -- End Message List Generation Phase
+INFO -- 04/05/12 15:52:05 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:52:05 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:52:05 -- Begin looping through message list
+DEBUG -- 04/05/12 15:52:11 -- End looping through message list
+INFO -- 04/05/12 15:52:12 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:52:12 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:52:16 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:52:19 -- End looping through ticket list
+INFO -- 04/05/12 15:52:20 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:52:20 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:52:20 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:52:20 -- END JMEWSR
+INFO -- 04/05/12 15:52:51 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:52:51 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:52:51 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:52:52 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:52 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:52 -- Retrieving messages
+DEBUG -- 04/05/12 15:52:52 -- There are 0 messages
+DEBUG -- 04/05/12 15:52:52 -- End retrieving messages
+INFO -- 04/05/12 15:52:52 -- End Message List Generation Phase
+INFO -- 04/05/12 15:52:52 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:52:52 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:52:52 -- Begin looping through message list
+DEBUG -- 04/05/12 15:52:52 -- End looping through message list
+INFO -- 04/05/12 15:52:52 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:52:52 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:52:52 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:52:52 -- End looping through ticket list
+INFO -- 04/05/12 15:52:52 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:52:52 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:52:52 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:52:52 -- END JMEWSR
+INFO -- 04/05/12 15:52:55 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:52:55 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:52:55 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:52:55 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:56 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:56 -- Retrieving messages
+DEBUG -- 04/05/12 15:52:56 -- There are 0 messages
+DEBUG -- 04/05/12 15:52:56 -- End retrieving messages
+INFO -- 04/05/12 15:52:56 -- End Message List Generation Phase
+INFO -- 04/05/12 15:52:56 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:52:56 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:52:56 -- Begin looping through message list
+DEBUG -- 04/05/12 15:52:56 -- End looping through message list
+INFO -- 04/05/12 15:52:56 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:52:56 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:52:56 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:52:56 -- End looping through ticket list
+INFO -- 04/05/12 15:52:56 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:52:56 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:52:56 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:52:56 -- END JMEWSR
+INFO -- 04/05/12 15:52:58 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:52:58 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:52:58 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:52:58 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:59 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:52:59 -- Retrieving messages
+DEBUG -- 04/05/12 15:52:59 -- There are 0 messages
+DEBUG -- 04/05/12 15:52:59 -- End retrieving messages
+INFO -- 04/05/12 15:52:59 -- End Message List Generation Phase
+INFO -- 04/05/12 15:52:59 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:52:59 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:52:59 -- Begin looping through message list
+DEBUG -- 04/05/12 15:52:59 -- End looping through message list
+INFO -- 04/05/12 15:52:59 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:52:59 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:52:59 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:52:59 -- End looping through ticket list
+INFO -- 04/05/12 15:52:59 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:52:59 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:52:59 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:52:59 -- END JMEWSR
+INFO -- 04/05/12 15:53:00 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:00 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:00 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:01 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:01 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:01 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:01 -- There are 0 messages
+DEBUG -- 04/05/12 15:53:01 -- End retrieving messages
+INFO -- 04/05/12 15:53:01 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:01 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:01 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:01 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:01 -- End looping through message list
+INFO -- 04/05/12 15:53:01 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:01 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:01 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:01 -- End looping through ticket list
+INFO -- 04/05/12 15:53:01 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:01 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:01 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:01 -- END JMEWSR
+INFO -- 04/05/12 15:53:04 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:04 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:04 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:04 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:05 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:05 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:05 -- There are 0 messages
+DEBUG -- 04/05/12 15:53:05 -- End retrieving messages
+INFO -- 04/05/12 15:53:05 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:05 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:05 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:05 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:05 -- End looping through message list
+INFO -- 04/05/12 15:53:05 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:05 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:05 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:05 -- End looping through ticket list
+INFO -- 04/05/12 15:53:05 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:05 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:05 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:05 -- END JMEWSR
+INFO -- 04/05/12 15:53:08 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:08 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:08 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:08 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:09 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:09 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:09 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:09 -- End retrieving messages
+INFO -- 04/05/12 15:53:09 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:09 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:09 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:09 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:09 -- End looping through message list
+INFO -- 04/05/12 15:53:09 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:09 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:09 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:09 -- End looping through ticket list
+INFO -- 04/05/12 15:53:09 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:09 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:09 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:09 -- END JMEWSR
+INFO -- 04/05/12 15:53:11 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:11 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:11 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:11 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:12 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:12 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:12 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:12 -- End retrieving messages
+INFO -- 04/05/12 15:53:12 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:12 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:12 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:12 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:12 -- End looping through message list
+INFO -- 04/05/12 15:53:12 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:12 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:12 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:12 -- End looping through ticket list
+INFO -- 04/05/12 15:53:12 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:12 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:12 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:12 -- END JMEWSR
+INFO -- 04/05/12 15:53:15 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:15 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:16 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:16 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:16 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:16 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:16 -- End retrieving messages
+INFO -- 04/05/12 15:53:16 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:16 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:16 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:16 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:16 -- End looping through message list
+INFO -- 04/05/12 15:53:16 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:16 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:16 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:16 -- End looping through ticket list
+INFO -- 04/05/12 15:53:16 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:16 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:16 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:16 -- END JMEWSR
+INFO -- 04/05/12 15:53:19 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:19 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:19 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:19 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:20 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:20 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:20 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:20 -- End retrieving messages
+INFO -- 04/05/12 15:53:20 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:20 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:20 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:20 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:20 -- End looping through message list
+INFO -- 04/05/12 15:53:20 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:20 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:20 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:20 -- End looping through ticket list
+INFO -- 04/05/12 15:53:20 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:20 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:20 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:20 -- END JMEWSR
+INFO -- 04/05/12 15:53:22 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:22 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:22 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:22 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:23 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:23 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:23 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:23 -- End retrieving messages
+INFO -- 04/05/12 15:53:23 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:23 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:23 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:23 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:23 -- End looping through message list
+INFO -- 04/05/12 15:53:23 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:23 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:23 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:23 -- End looping through ticket list
+INFO -- 04/05/12 15:53:23 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:23 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:23 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:23 -- END JMEWSR
+INFO -- 04/05/12 15:53:26 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:26 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:26 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:27 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:27 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:27 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:27 -- End retrieving messages
+INFO -- 04/05/12 15:53:27 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:27 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:27 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:27 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:27 -- End looping through message list
+INFO -- 04/05/12 15:53:27 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:27 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:27 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:27 -- End looping through ticket list
+INFO -- 04/05/12 15:53:27 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:27 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:27 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:27 -- END JMEWSR
+INFO -- 04/05/12 15:53:30 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:30 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:31 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:31 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:31 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:31 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:31 -- End retrieving messages
+INFO -- 04/05/12 15:53:31 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:31 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:31 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:31 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:31 -- End looping through message list
+INFO -- 04/05/12 15:53:31 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:31 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:31 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:31 -- End looping through ticket list
+INFO -- 04/05/12 15:53:31 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:31 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:31 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:31 -- END JMEWSR
+INFO -- 04/05/12 15:53:40 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:40 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:40 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:40 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:41 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:41 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:41 -- There are 0 messages
+DEBUG -- 04/05/12 15:53:41 -- End retrieving messages
+INFO -- 04/05/12 15:53:41 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:41 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:41 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:41 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:41 -- End looping through message list
+INFO -- 04/05/12 15:53:41 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:41 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:41 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:41 -- End looping through ticket list
+INFO -- 04/05/12 15:53:41 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:53:41 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:53:41 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:53:41 -- END JMEWSR
+INFO -- 04/05/12 15:53:44 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:44 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:44 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:44 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:45 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:45 -- Retrieving messages
+DEBUG -- 04/05/12 15:53:45 -- There are 1 messages
+DEBUG -- 04/05/12 15:53:45 -- End retrieving messages
+INFO -- 04/05/12 15:53:45 -- End Message List Generation Phase
+INFO -- 04/05/12 15:53:45 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:53:45 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:53:45 -- Begin looping through message list
+DEBUG -- 04/05/12 15:53:45 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:53:45 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:53:45 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:53:45 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+INFO -- 04/05/12 15:53:47 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:53:47 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:53:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:49 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:53 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:53:53 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:53:53 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:53:53 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:53:53 -- End creating ticket entry
+DEBUG -- 04/05/12 15:53:53 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:53:53 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:53:53 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:53:54 -- End looping through message list
+INFO -- 04/05/12 15:53:54 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:53:54 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:53:54 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:53:54 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:53:56 -- END createRFSTicket
+DEBUG -- 04/05/12 15:53:56 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYOAAA= to Processed folder
+DEBUG -- 04/05/12 15:53:56 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:53:59 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:53:59 -- Retrieving messages
+DEBUG -- 04/05/12 15:54:00 -- There are 1 messages
+DEBUG -- 04/05/12 15:54:00 -- End retrieving messages
+INFO -- 04/05/12 15:54:00 -- End Message List Generation Phase
+INFO -- 04/05/12 15:54:00 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:54:01 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:54:01 -- Begin looping through message list
+DEBUG -- 04/05/12 15:54:01 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:54:01 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:54:02 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:54:02 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+ERROR -- 04/05/12 15:54:03 -- moveMessage error with moving item
+INFO -- 04/05/12 15:54:05 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:54:05 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:54:05 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:54:06 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:54:07 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:54:07 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:54:07 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:54:07 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:54:07 -- End creating ticket entry
+DEBUG -- 04/05/12 15:54:07 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:54:07 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:54:07 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:54:07 -- End looping through message list
+INFO -- 04/05/12 15:54:07 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:54:07 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:54:07 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:54:07 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:54:07 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:54:07 -- Retrieving messages
+DEBUG -- 04/05/12 15:54:07 -- There are 1 messages
+DEBUG -- 04/05/12 15:54:07 -- End retrieving messages
+INFO -- 04/05/12 15:54:07 -- End Message List Generation Phase
+INFO -- 04/05/12 15:54:07 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:54:07 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:54:07 -- Begin looping through message list
+DEBUG -- 04/05/12 15:54:07 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:54:07 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:54:07 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:54:07 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:54:08 -- END createRFSTicket
+DEBUG -- 04/05/12 15:54:08 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYOAAA= to Processed folder
+DEBUG -- 04/05/12 15:54:08 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+ERROR -- 04/05/12 15:54:08 -- moveMessage error with moving item
+DEBUG -- 04/05/12 15:54:10 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:54:10 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:54:10 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:54:10 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:54:10 -- End creating ticket entry
+DEBUG -- 04/05/12 15:54:10 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:54:10 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:54:10 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:54:10 -- End looping through message list
+INFO -- 04/05/12 15:54:10 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:54:10 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:54:10 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:54:10 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:54:11 -- END createRFSTicket
+DEBUG -- 04/05/12 15:54:11 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYOAAA= to Processed folder
+DEBUG -- 04/05/12 15:54:11 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+ERROR -- 04/05/12 15:54:11 -- moveMessage error with moving item
+INFO -- 04/05/12 15:54:55 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:54:55 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:54:55 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:54:56 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:54:56 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:54:56 -- Retrieving messages
+DEBUG -- 04/05/12 15:54:56 -- There are 1 messages
+DEBUG -- 04/05/12 15:54:56 -- End retrieving messages
+INFO -- 04/05/12 15:54:56 -- End Message List Generation Phase
+INFO -- 04/05/12 15:54:56 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:54:57 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:54:57 -- Begin looping through message list
+DEBUG -- 04/05/12 15:54:57 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:55:03 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:55:16 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:55:33 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:56:00 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:56:00 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:56:07 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:56:07 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:56:30 -- End creating ticket entry
+DEBUG -- 04/05/12 15:56:30 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:56:30 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:56:30 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:56:30 -- End looping through message list
+INFO -- 04/05/12 15:56:34 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:56:34 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:56:38 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:56:40 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:57:06 -- END createRFSTicket
+DEBUG -- 04/05/12 15:57:14 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYOAAA= to Processed folder
+DEBUG -- 04/05/12 15:57:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+INFO -- 04/05/12 15:58:47 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:58:47 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:58:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:58:47 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:58:48 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:58:48 -- Retrieving messages
+DEBUG -- 04/05/12 15:58:48 -- There are 2 messages
+DEBUG -- 04/05/12 15:58:48 -- End retrieving messages
+INFO -- 04/05/12 15:58:48 -- End Message List Generation Phase
+INFO -- 04/05/12 15:58:48 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:58:48 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:58:48 -- Begin looping through message list
+DEBUG -- 04/05/12 15:58:48 -- End looping through message list
+INFO -- 04/05/12 15:58:48 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:58:48 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:58:48 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:58:49 -- End looping through ticket list
+INFO -- 04/05/12 15:58:57 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:58:57 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:58:57 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:58:57 -- END JMEWSR
+INFO -- 04/05/12 15:59:05 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:59:05 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:59:05 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:59:05 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:59:06 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:59:06 -- Retrieving messages
+DEBUG -- 04/05/12 15:59:06 -- There are 2 messages
+DEBUG -- 04/05/12 15:59:06 -- End retrieving messages
+INFO -- 04/05/12 15:59:06 -- End Message List Generation Phase
+INFO -- 04/05/12 15:59:06 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:59:06 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:59:06 -- Begin looping through message list
+DEBUG -- 04/05/12 15:59:06 -- End looping through message list
+INFO -- 04/05/12 15:59:06 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:59:06 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:59:06 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:59:06 -- End looping through ticket list
+INFO -- 04/05/12 15:59:06 -- End Ticket Generation Phase
+INFO -- 04/05/12 15:59:06 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 15:59:06 -- End ticket (entry id) dump
+INFO -- 04/05/12 15:59:06 -- END JMEWSR
+INFO -- 04/05/12 15:59:17 -- BEGIN JMEWSR
+INFO -- 04/05/12 15:59:17 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 15:59:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 15:59:18 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 15:59:18 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 15:59:18 -- Retrieving messages
+DEBUG -- 04/05/12 15:59:18 -- There are 4 messages
+DEBUG -- 04/05/12 15:59:19 -- End retrieving messages
+INFO -- 04/05/12 15:59:19 -- End Message List Generation Phase
+INFO -- 04/05/12 15:59:19 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 15:59:19 -- Begin creating ticket entries
+DEBUG -- 04/05/12 15:59:19 -- Begin looping through message list
+DEBUG -- 04/05/12 15:59:19 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 15:59:19 -- End Retrieving message from message list
+DEBUG -- 04/05/12 15:59:19 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 15:59:19 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:59:20 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:59:20 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 15:59:20 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 15:59:20 -- Begin creating ticket entry
+DEBUG -- 04/05/12 15:59:20 -- End creating ticket entry
+DEBUG -- 04/05/12 15:59:20 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:59:20 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 15:59:20 -- End get info from EmailIn form
+DEBUG -- 04/05/12 15:59:20 -- End looping through message list
+INFO -- 04/05/12 15:59:20 -- End Ticket List Generation Phase
+INFO -- 04/05/12 15:59:20 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 15:59:20 -- Begin looping through ticket list
+DEBUG -- 04/05/12 15:59:20 -- Begin createRFSTicket
+DEBUG -- 04/05/12 15:59:21 -- END createRFSTicket
+DEBUG -- 04/05/12 15:59:23 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYSAAA= to Processed folder
+DEBUG -- 04/05/12 15:59:23 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+INFO -- 04/05/12 16:05:39 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:05:39 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:05:39 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:05:40 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:05:41 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:05:41 -- Retrieving messages
+DEBUG -- 04/05/12 16:05:41 -- There are 1 messages
+DEBUG -- 04/05/12 16:05:41 -- End retrieving messages
+INFO -- 04/05/12 16:05:41 -- End Message List Generation Phase
+INFO -- 04/05/12 16:05:41 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:05:41 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:05:41 -- Begin looping through message list
+DEBUG -- 04/05/12 16:05:41 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 16:05:41 -- End Retrieving message from message list
+DEBUG -- 04/05/12 16:05:41 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 16:05:41 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:05:42 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:05:42 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:05:42 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 16:05:42 -- Begin creating ticket entry
+DEBUG -- 04/05/12 16:05:42 -- End creating ticket entry
+DEBUG -- 04/05/12 16:05:42 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:05:42 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:05:42 -- End get info from EmailIn form
+DEBUG -- 04/05/12 16:05:42 -- End looping through message list
+INFO -- 04/05/12 16:05:42 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:05:42 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:05:42 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:05:42 -- Begin createRFSTicket
+DEBUG -- 04/05/12 16:05:43 -- END createRFSTicket
+DEBUG -- 04/05/12 16:05:44 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYWAAA= to Processed folder
+DEBUG -- 04/05/12 16:05:44 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+ERROR -- 04/05/12 16:06:36 -- moveMessage error with moving item
+INFO -- 04/05/12 16:08:09 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:08:09 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:08:09 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:08:09 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:08:10 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:08:10 -- Retrieving messages
+DEBUG -- 04/05/12 16:08:10 -- There are 3 messages
+DEBUG -- 04/05/12 16:08:10 -- End retrieving messages
+INFO -- 04/05/12 16:08:10 -- End Message List Generation Phase
+INFO -- 04/05/12 16:08:10 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:08:10 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:08:10 -- Begin looping through message list
+DEBUG -- 04/05/12 16:08:10 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 16:08:10 -- End Retrieving message from message list
+DEBUG -- 04/05/12 16:08:10 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 16:08:10 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:08:11 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:08:11 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:08:11 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 16:08:11 -- Begin creating ticket entry
+DEBUG -- 04/05/12 16:08:11 -- End creating ticket entry
+DEBUG -- 04/05/12 16:08:11 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:08:11 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:08:11 -- End get info from EmailIn form
+DEBUG -- 04/05/12 16:08:11 -- End looping through message list
+INFO -- 04/05/12 16:08:11 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:08:11 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:08:11 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:08:11 -- Begin createRFSTicket
+DEBUG -- 04/05/12 16:08:13 -- END createRFSTicket
+DEBUG -- 04/05/12 16:08:14 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYWAAA= to Processed folder
+DEBUG -- 04/05/12 16:08:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:08:25 -- End moving message
+DEBUG -- 04/05/12 16:08:25 -- Begin add entry id to entry id list
+DEBUG -- 04/05/12 16:08:25 -- End add entry id to entry id list
+DEBUG -- 04/05/12 16:08:25 -- End looping through ticket list
+INFO -- 04/05/12 16:08:25 -- End Ticket Generation Phase
+INFO -- 04/05/12 16:08:25 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 16:08:25 -- 000000002170093
+INFO -- 04/05/12 16:08:25 -- End ticket (entry id) dump
+INFO -- 04/05/12 16:08:25 -- END JMEWSR
+INFO -- 04/05/12 16:13:39 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:13:39 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:13:39 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:13:39 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:13:40 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:13:40 -- Retrieving messages
+DEBUG -- 04/05/12 16:13:40 -- There are 4 messages
+DEBUG -- 04/05/12 16:13:40 -- End retrieving messages
+INFO -- 04/05/12 16:13:40 -- End Message List Generation Phase
+INFO -- 04/05/12 16:13:40 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:13:40 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:13:40 -- Begin looping through message list
+DEBUG -- 04/05/12 16:13:40 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 16:13:40 -- End Retrieving message from message list
+DEBUG -- 04/05/12 16:13:40 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 16:13:40 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:13:41 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:13:41 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:13:41 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 16:13:41 -- Begin creating ticket entry
+DEBUG -- 04/05/12 16:13:41 -- End creating ticket entry
+DEBUG -- 04/05/12 16:13:41 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:13:41 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:13:41 -- End get info from EmailIn form
+DEBUG -- 04/05/12 16:13:41 -- End looping through message list
+INFO -- 04/05/12 16:13:41 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:13:41 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:13:41 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:13:41 -- Begin createRFSTicket
+DEBUG -- 04/05/12 16:13:42 -- END createRFSTicket
+DEBUG -- 04/05/12 16:13:42 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYfAAA= to Processed folder
+DEBUG -- 04/05/12 16:13:42 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:13:42 -- End moving message
+DEBUG -- 04/05/12 16:13:42 -- Begin add entry id to entry id list
+DEBUG -- 04/05/12 16:13:42 -- End add entry id to entry id list
+DEBUG -- 04/05/12 16:13:42 -- End looping through ticket list
+INFO -- 04/05/12 16:13:42 -- End Ticket Generation Phase
+INFO -- 04/05/12 16:13:42 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 16:13:42 -- 000000002170094
+INFO -- 04/05/12 16:13:42 -- End ticket (entry id) dump
+INFO -- 04/05/12 16:13:42 -- END JMEWSR
+INFO -- 04/05/12 16:17:04 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:17:04 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:17:04 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:17:04 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:17:05 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:17:05 -- Retrieving messages
+DEBUG -- 04/05/12 16:17:05 -- There are 3 messages
+DEBUG -- 04/05/12 16:17:05 -- End retrieving messages
+INFO -- 04/05/12 16:17:05 -- End Message List Generation Phase
+INFO -- 04/05/12 16:17:05 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:17:05 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:17:05 -- Begin looping through message list
+DEBUG -- 04/05/12 16:17:05 -- Begin Retrieving message from message list
+DEBUG -- 04/05/12 16:17:05 -- End Retrieving message from message list
+DEBUG -- 04/05/12 16:17:05 -- Begin get info from EmailIn form
+DEBUG -- 04/05/12 16:17:05 -- Begin Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:17:06 -- End Query for EmailIn form with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:17:06 -- Check email has EmailIn with email: physicsremedy@unc.edu
+DEBUG -- 04/05/12 16:17:06 -- Email: physicsremedy@unc.edu has an EmailIn form
+DEBUG -- 04/05/12 16:17:06 -- Begin creating ticket entry
+DEBUG -- 04/05/12 16:17:06 -- End creating ticket entry
+DEBUG -- 04/05/12 16:17:06 -- Begin adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:17:06 -- End adding ticket entry to ticket list
+DEBUG -- 04/05/12 16:17:06 -- End get info from EmailIn form
+DEBUG -- 04/05/12 16:17:06 -- End looping through message list
+INFO -- 04/05/12 16:17:06 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:17:06 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:17:06 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:17:06 -- Begin createRFSTicket
+DEBUG -- 04/05/12 16:17:07 -- END createRFSTicket
+DEBUG -- 04/05/12 16:17:07 -- Begin moving message with message id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwDHs6YfEj96QJvNlMt3ZqppAA6KKg+/AABWjOzc8ag7S4pwvU3rKN23AAAadRYiAAA= to Processed folder
+DEBUG -- 04/05/12 16:17:07 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:17:08 -- Moved message with id: AAMkADIzOWIwYmQ0LTM5ZmUtNDA3Mi04ZmY0LWNmNTcyZmNlMGUyYgBGAAAAAADkMVb6iRGqSo9j905TerkPBwBWjOzc8ag7S4pwvU3rKN23AAAaZ66ZAABWjOzc8ag7S4pwvU3rKN23AAAadSRtAAA= successfully
+DEBUG -- 04/05/12 16:17:08 -- End moving message
+DEBUG -- 04/05/12 16:17:08 -- Begin add entry id to entry id list
+DEBUG -- 04/05/12 16:17:08 -- End add entry id to entry id list
+DEBUG -- 04/05/12 16:17:08 -- End looping through ticket list
+INFO -- 04/05/12 16:17:08 -- End Ticket Generation Phase
+INFO -- 04/05/12 16:17:08 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 16:17:08 -- 000000002170095
+INFO -- 04/05/12 16:17:08 -- End ticket (entry id) dump
+INFO -- 04/05/12 16:17:08 -- END JMEWSR
+INFO -- 04/05/12 16:34:48 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:34:52 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:35:06 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:35:09 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:35:14 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:35:14 -- Retrieving messages
+DEBUG -- 04/05/12 16:35:14 -- There are 0 messages
+DEBUG -- 04/05/12 16:35:14 -- End retrieving messages
+INFO -- 04/05/12 16:35:14 -- End Message List Generation Phase
+INFO -- 04/05/12 16:35:14 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:35:14 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:35:14 -- Begin looping through message list
+DEBUG -- 04/05/12 16:35:14 -- End looping through message list
+INFO -- 04/05/12 16:35:14 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:35:14 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:35:14 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:35:14 -- End looping through ticket list
+INFO -- 04/05/12 16:35:14 -- End Ticket Generation Phase
+INFO -- 04/05/12 16:35:14 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 16:35:14 -- End ticket (entry id) dump
+INFO -- 04/05/12 16:35:14 -- END JMEWSR
+INFO -- 04/05/12 16:36:30 -- BEGIN JMEWSR
+INFO -- 04/05/12 16:36:30 -- Begin Message List Generation Phase
+DEBUG -- 04/05/12 16:36:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy.svc@ad.unc.edu
+DEBUG -- 04/05/12 16:36:30 -- Retrieving unread inbox items
+DEBUG -- 04/05/12 16:36:32 -- End retrieving unread inbox items
+DEBUG -- 04/05/12 16:36:32 -- Retrieving messages
+DEBUG -- 04/05/12 16:36:32 -- There are 1 messages
+DEBUG -- 04/05/12 16:36:32 -- End retrieving messages
+INFO -- 04/05/12 16:36:32 -- End Message List Generation Phase
+INFO -- 04/05/12 16:36:32 -- Begin Ticket List Generation Phase
+DEBUG -- 04/05/12 16:36:32 -- Begin creating ticket entries
+DEBUG -- 04/05/12 16:36:32 -- Begin looping through message list
+DEBUG -- 04/05/12 16:36:32 -- End looping through message list
+INFO -- 04/05/12 16:36:32 -- End Ticket List Generation Phase
+INFO -- 04/05/12 16:36:32 -- Begin Ticket Generation Phase
+DEBUG -- 04/05/12 16:36:32 -- Begin looping through ticket list
+DEBUG -- 04/05/12 16:36:32 -- End looping through ticket list
+INFO -- 04/05/12 16:36:32 -- End Ticket Generation Phase
+INFO -- 04/05/12 16:36:32 -- Begin ticket (entry id) dump
+INFO -- 04/05/12 16:36:32 -- End ticket (entry id) dump
+INFO -- 04/05/12 16:36:32 -- END JMEWSR

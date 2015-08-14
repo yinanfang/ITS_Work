@@ -1,0 +1,52 @@
+#########################################################################################
+#JMEWS - Java Microsoft Exchange Web Service API to Remedy Interactor Configuration File#
+#########################################################################################
+
+#Use the hash mark (#) to comment out a line
+
+#AR user
+aruser=jxvega
+
+#AR password
+arpassword=tropic@l20
+
+#AR host
+arhost=remedy05.isis.unc.edu
+
+#AR port
+#arport=32913
+#arport=51703
+arport=50813
+
+#EWS user
+ewsuser=its_remedy.svc@ad.unc.edu
+
+#EWS host
+ewshost=https://outlook.unc.edu/ews/Exchange.asmx
+
+#EWS password
+ewspassword=!Jan13-812
+
+#Logging Level - Options are: ALL, ERROR, INFO, DEBUG, or NONE
+loglevel=ALL
+
+#log file
+#If you wish to save the log file else where, make sure the directory you wish to save it in exists first
+logfile=jmewsr.log
+
+#email spam list
+#emails in this list are ignored
+#spamlistfile=/Users/jxvega/Documents/workspace/jmewsr/configuration/spamlist.lst
+
+#email allowed list
+#emails in this list are the only allowed
+#allowedemailsfile=/Users/jxvega/Documents/workspace/jmewsr/configuration/allowedemails.lst
+
+#allow moving of messages
+allowmsgmove=true
+
+#Override group assign to allow all tickets to be assigned to Remedy Admin. This is for testing purposes
+sendtoremedyadmin=true
+
+#Allow email-in system to do updates for existing tickets. If set to false, the email will not be moved.
+allowupdates=true

@@ -1,0 +1,346 @@
+/****************************************************************************
+General Settings -- Start
+****************************************************************************/
+/* Make the DOM take the whole window */
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Set the font of the whole site */
+label, textarea, .trimJustl, /* Search button */ .trimJustc, /* Switch To button, UNC-Request for Service link */ .trimdiv，
+textarea, textarea.sr, input[type="text"], div.selection input
+{                                   /* Change all text to use Helvetica */
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+/* Set the text area and input style */
+textarea, textarea.sr, input[type="text"], div.selection input
+{
+    height: auto !important;
+    padding: 4px 6px;
+    font-size: 12px;
+    line-height: 1em;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+/* Bolder, larger, and orange title H2 */
+td.f9
+{
+    font-size: 14px;
+    color: #F0853A !important;
+    font-weight: 500;
+}
+
+/* Give rounded corner to all outer section boxes and buttons*/
+.trimBox, .btn                            /* Make all boxes' borders to have radius */
+{
+    border-radius: 4px;
+}
+/* Genaral Style for all buttons */
+.btn3d
+{
+    background: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none;
+    border-radius: 4px;
+}
+.btn3d:hover
+{
+    box-shadow: 0 0 1px black;
+}
+.btntextdiv .f1, .btntextdiv .f7, .btntextdiv .f9
+{
+    padding-top: 2px;
+}
+/* Override style for specific buttons */
+.controlButton
+{
+    border: none !important;
+    color: white !important;
+    background: #64A9DA !important;
+    font-size: 12px;
+}
+.controlButton:hover
+{
+    background: #56A0D5 !important;
+    border: none !important;
+}
+.controlButton div div
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/****************************************************************************
+General Settings -- End
+****************************************************************************/
+
+/****************************************************************************
+Header Settings -- Start
+****************************************************************************/
+.ToolBar
+{
+    height: 30px !important;
+}
+.ToolBar, .ToolBar .TBTopBarStatus, .ToolBar .TBGroup
+{
+    background: #56A0D3 !important;
+    border: none !important;
+}
+/* Upper Bar */
+.ToolBar .TBTopBarStatus
+{
+    top: 3px;
+    height: 30px !important;
+    font-size: 20px !important;
+}
+.ToolBar .TBTopBarStatus span
+{
+    font-size: 20px !important;
+}
+.TBTopBarBox
+{
+    /*
+    width: 30px !important;
+    height: 30px !important;
+    */
+    display: none !important;
+}
+/* Lower Bar */
+.ToolBar .Toolbar
+{
+    top: 0;
+    left: 260px;
+    height: 30px !important;
+    overflow: hidden;
+}
+a.searchsavechanges
+{
+    color: #FFF;
+    background: #4DB24C !important;
+    border: none !important;
+}
+a.searchsavechanges:hover
+{
+    background: #47A447 !important;
+    border: none !important;
+}
+.TBGroup1 a.tbbtn:hover, .TBGroup2 a.tbbtn:hover, .TBGroup3 a.tbbtn:hover
+{
+    background: #5B8CBB !important;
+    border: none !important;
+}
+
+
+
+.logoContainer
+{
+    border: none;
+    background: url('./logoWithWords.png') no-repeat transparent;
+    background-size: 230px 65px;
+}
+
+/****************************************************************************
+Header Settings -- End
+****************************************************************************/
+
+/****************************************************************************
+Left Panel -- Start
+****************************************************************************/
+.CustInfoBox
+{
+    border: none;
+}
+
+/****************************************************************************
+Left Panel -- End
+****************************************************************************/
+
+/****************************************************************************
+Page Body -- Start
+****************************************************************************/
+.PageBody
+{
+    background: white;
+}
+
+/* Hide the hr across */
+.TabChildMissingBorder
+{
+    top: 39px !important;
+    display: none !important;
+}
+/* change bg of centerContainer */
+.centerContainer
+{
+    background: white !important;
+    border: none !important;
+}
+
+/* move the panel down */
+.customPanels
+{
+    top: 40px !important;
+    height: 335px !important;
+    border: none !important;
+}
+
+/* Set the tab bar effect */
+/* Increase the height of the tab bar */
+.OuterTabsDiv,
+.TabsViewPort,
+.OuterTabSelected .TabLeft,
+.OuterTabSelected .Tab,
+.OuterTabSelected .TabRight,
+.OuterTabSelected .TabLeftRounded,
+.OuterTabSelected .TabRightRounded,
+.TabLeft,
+.Tab,
+.TabRight,
+.TabLeftRounded,
+.TabRightRounded,
+.OuterOuterTab
+{
+    height: 40px !important;
+}
+
+/* Button effect */
+/* Clear the background color */
+.OuterTab,
+.ScrollingTab,
+.TabLeftRounded,
+.TabLeft,
+.Tab,
+.TabRight,
+.TabRightRounded
+{
+    background: #F1F1F1 !important;
+}
+.OuterTabSelected .Tab .f1
+{
+    background: white !important;
+}
+
+/* Set background color during hover */
+.OuterTab:hover,
+.ScrollingTab:hover,
+.TabLeftRounded:hover,
+.TabLeft:hover,
+.Tab:hover,
+.TabRight:hover,
+.TabRightRounded:hover
+{
+    background: rgb(238, 238, 238) !important;
+}
+/* No left TabLeft or TabRight */
+.TabLeftRounded,
+.TabLeft,
+.TabRight,
+.TabRightRounded
+{
+    display: none;
+}
+/* No border */
+.Tab
+{
+    border: none !important;
+    padding: 1px;
+}
+/* Put border inside instead */
+.Tab .f1
+{
+    color: #56A0D3 !important;
+    font-size: 14px;
+    padding: 10px 15px !important;
+    border-top: 1px solid #CCC !important;
+    border-left: 1px solid #CCC !important;
+    border-right: 1px solid #CCC !important;
+}
+
+
+
+
+
+
+
+
+/* Clear the board of the title in of that section */
+.titleBox
+{
+    border-style: none;
+}
+
+/*
+.Tab
+{
+
+}
+
+
+
+*/
+
+
+/*
+
+.trimJustc
+{
+    font-size: 18px;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+*/
+
+
+/****************************************************************************
+Page Body -- End
+****************************************************************************/
+
+/****************************************************************************
+Work Log -- Start
+****************************************************************************/
+/* Move down the whole panel
+.bottomPanel
+{
+    top: 484px !important;
+}*/
+
+/****************************************************************************
+Work Log -- End
+****************************************************************************/
+
+
+
+
+/*
+textarea,
+textarea.sr,
+input[type="text"],
+div.selection input {
+    display: block;
+    height: auto !important;
+    width: 100%;
+    height: 26px;
+    padding: 4px 6px;
+    line-height: 1em;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+

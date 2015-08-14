@@ -1,0 +1,40 @@
+8
+
+dir
+15
+https://localhost/svn/eclipse-jmewsr/trunk/.settings
+https://localhost/svn/eclipse-jmewsr
+
+
+
+2012-04-12T15:15:35.649539Z
+2
+jxvega
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf843b50-0ab2-ba44-be2f-9055052525e1
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2012-05-08T13:55:53.325000Z
+16b4fbdbd9fbb7e296eb946f1ab147e4
+2012-04-12T15:15:35.649539Z
+2
+jxvega
+

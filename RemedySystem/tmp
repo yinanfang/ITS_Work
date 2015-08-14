@@ -1,0 +1,124 @@
+/* Button effect test */
+.Tab a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px 3px 0px 0px;
+    margin-top: 1px;
+    color: #428BCA !important;
+    border: 1px solid transparent;
+}
+.OuterTab .Tab, .OuterTab .TabLeft, .OuterTab .TabRight, .ScrollingTab .Tab {
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************
+General Settings -- Start
+****************************************************************************/
+label,
+textarea,
+.trimJustl /* Search button */
+.trimJustc /* Switch To button, UNC-Request for Service link */
+{                                   /* Change all text to use Helvetica */
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+}
+.trimBox                            /* Make all boxes' borders to have radius */
+{
+    border-radius: 6px;
+}
+
+/***** buttons *****/
+.btn                        /* All button - General */
+{
+    border-radius: 6px;
+
+}
+/*
+.btn:hover
+{
+}
+.btn:active
+{
+}
+*/
+
+.btnimg,                        /* All button - with images and text */
+.btntextdiv
+{
+    background-color: white;
+    box-shadow: none;
+    box-shadow: 10px 10px 5px #888888;
+}
+.btnimg:hover
+{
+    background-color: #56A0D3;
+}
+
+
+
+
+/****************************************************************************
+Left Panel -- End
+****************************************************************************/
+
+
+/****************************************************************************
+Left Panel -- Start
+****************************************************************************/
+
+.CustInfoBox
+{
+    border: none;           /* Hide the */
+}
+.trimJustc
+{
+    font-size: 18px;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+
+
+
+
+textarea,
+textarea.sr,
+input[type="text"],
+div.selection input {
+    display: block;
+    height: auto !important;
+    width: 100%;
+    height: 26px;
+    padding: 4px 6px;
+    line-height: 1em;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+

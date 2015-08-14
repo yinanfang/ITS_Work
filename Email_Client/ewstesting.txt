@@ -1,0 +1,173 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Net;
+using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
+
+using Microsoft.Exchange.WebServices.Data;
+
+
+namespace EWS_EmailIn_Filter
+{
+    class Program
+    {
+        static ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2010_SP2);
+        static void Main(string[] args)
+        {
+            ServicePointManager.ServerCertificateValidationCallback = CertificateValidationCallBack;
+            serviceCredentials();
+
+            // Attempt to retrieve the unique identifier of the folder with display name "Custom Folder" (located in the Inbox folder). 
+            FolderId folderId = FindFolderIdByDisplayNameInInbox(service, "Invalid_TicketNum_Length", WellKnownFolderName.Inbox);
+            if (folderId != null)
+            {
+                Console.WriteLine("The unique identifier of the 'Invalid_TicketNum_Length' folder (in the Inbox folder) is: " + folderId.ToString());
+            }
+            Console.WriteLine("\r\n");
+            Folder folder = findFolderIDInMailbox(service, "Inbox");
+            if (folder != null)
+            {
+                Console.WriteLine("And again, different method: " + folder.Id.ToString());
+            }
+            Console.WriteLine("Press or select Enter...");
+            Console.Read();
+
+            int i = returnTimeDifference(service, folder);
+            Console.Read();
+        }
+        public static Folder findFolderIDInMailbox(ExchangeService service, string folderName)
+        {
+            FolderView view = new FolderView(1);
+            view.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+            view.PropertySet.Add(FolderSchema.DisplayName);
+            SearchFilter searchFilter = new SearchFilter.IsEqualTo(FolderSchema.DisplayName, folderName);
+            view.Traversal = FolderTraversal.Deep;
+            FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.Root, searchFilter, view);
+            foreach (Folder folder in findFolderResults.Folders)
+            {
+                if (folder.DisplayName == folderName)
+                {
+                    return folder;
+                }
+            }
+            return null;
+        }
+        public static FolderId FindFolderIdByDisplayNameInInbox(ExchangeService service, string DisplayName, WellKnownFolderName SearchFolder)
+        {
+            // Specify the root folder to be searched. 
+            Folder rootFolder = Folder.Bind(service, SearchFolder);
+
+            // Loop through the child folders of the folder being searched. 
+            foreach (Folder folder in rootFolder.FindFolders(new FolderView(100)))
+            {
+                // If the display name of the current folder matches the specified display name, return the folder's unique identifier. 
+                if (folder.DisplayName == DisplayName)
+                {
+                    return folder.Id;
+                }
+            }
+
+            // If no folders have a display name that matches the specified display name, return null. 
+            return null;
+        }
+
+        public static int returnTimeDifference(ExchangeService service, Folder folder)
+        {
+            int timeDifference = 0;
+            ItemView itemView = new ItemView(1000);
+            itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+            itemView.PropertySet.Add(ItemSchema.DateTimeReceived);           
+            foreach(Item item in folder.FindItems(itemView))
+            {
+                
+                Console.WriteLine("Item " + item.Subject + " has a received date of " + item.DateTimeReceived.ToString() + ".");
+                Console.Read();
+
+            }
+            return timeDifference;
+        }
+
+        private static void serviceCredentials()
+        {
+            service.Credentials = new WebCredentials("its_remedy-test.svc@ad.unc.edu", "!Jan13-812");
+            service.TraceEnabled = true;
+            service.TraceFlags = TraceFlags.All;    
+            service.AutodiscoverUrl("its_remedy-test.svc@ad.unc.edu", RedirectionUrlValidationCallback);
+        }
+        private static void testSendMessage()
+        {
+            EmailMessage email = new EmailMessage(service);
+            email.ToRecipients.Add("william_mowery@unc.edu");
+            email.Subject = "Testing ews";
+            email.Body = new MessageBody("Testing ews message body");
+            email.Send();
+        }
+
+        #region required ews methods
+        private static bool CertificateValidationCallBack(object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate,
+            System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
+        {
+            // If the certificate is a valid, signed certificate, return true.
+            if (sslPolicyErrors == System.Net.Security.SslPolicyErrors.None)
+            {
+                return true;
+            }
+
+            // If there are errors in the certificate chain, look at each error to determine the cause.
+            if ((sslPolicyErrors & System.Net.Security.SslPolicyErrors.RemoteCertificateChainErrors) != 0)
+            {
+                if (chain != null && chain.ChainStatus != null)
+                {
+                    foreach (System.Security.Cryptography.X509Certificates.X509ChainStatus status in chain.ChainStatus)
+                    {
+                        if ((certificate.Subject == certificate.Issuer) &&
+                           (status.Status == System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.UntrustedRoot))
+                        {
+                            // Self-signed certificates with an untrusted root are valid. 
+                            continue;
+                        }
+                        else
+                        {
+                            if (status.Status != System.Security.Cryptography.X509Certificates.X509ChainStatusFlags.NoError)
+                            {
+                                // If there are any other errors in the certificate chain, the certificate is invalid,
+                                // so the method returns false.
+                                return false;
+                            }
+                        }
+                    }
+                }
+
+                // When processing reaches this line, the only errors in the certificate chain are 
+                // untrusted root errors for self-signed certificates. These certificates are valid
+                // for default Exchange server installations, so return true.
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        private static bool RedirectionUrlValidationCallback(string redirectionUrl)
+        {
+            // The default for the validation callback is to reject the URL.
+            bool result = false;
+
+            Uri redirectionUri = new Uri(redirectionUrl);
+
+            // Validate the contents of the redirection URL. In this simple validation
+            // callback, the redirection URL is considered valid if it is using HTTPS
+            // to encrypt the authentication credentials. 
+            if (redirectionUri.Scheme == "https")
+            {
+                result = true;
+            }
+            return result;
+        }
+        #endregion
+    }
+}

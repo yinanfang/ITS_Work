@@ -1,0 +1,1678 @@
+
+INFO -- 11/13/13 10:20:33 -- BEGIN JMEWSR
+INFO -- 11/13/13 10:20:33 -- Begin Message/Item List Generation Phase
+DEBUG -- 11/13/13 10:20:33 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:34 -- Checking for attachments
+DEBUG -- 11/13/13 10:20:34 -- Retrieving inbox items for download
+DEBUG -- 11/13/13 10:20:35 -- Retrieving messages
+DEBUG -- 11/13/13 10:20:35 -- There are 1 messages
+INFO -- 11/13/13 10:20:35 -- allowed email list is not in use
+INFO -- 11/13/13 10:20:35 -- spam email list is not in use
+DEBUG -- 11/13/13 10:20:35 -- Message added to message list
+DEBUG -- 11/13/13 10:20:35 -- End retrieving messages
+INFO -- 11/13/13 10:20:35 -- End Message/Item List Generation Phase
+INFO -- 11/13/13 10:20:35 -- Begin Ticket List Generation Phase
+DEBUG -- 11/13/13 10:20:35 -- Begin creating ticket entries
+DEBUG -- 11/13/13 10:20:35 -- Begin looping through message list
+DEBUG -- 11/13/13 10:20:35 -- Begin Retrieving message from message list
+DEBUG -- 11/13/13 10:20:35 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:35 -- End Retrieving message from message list
+DEBUG -- 11/13/13 10:20:35 -- Retrieving recipients from eml file
+DEBUG -- 11/13/13 10:20:35 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:35 -- Begin downloading message as eml file
+DEBUG -- 11/13/13 10:20:36 -- End downloading message as eml file
+DEBUG -- 11/13/13 10:20:36 -- RAW Recipient Line: nullReceived: from its-msxmbs5m.ad.unc.edu ([169.254.9.155]) by ITS-MSXHT7F.ad.unc.edu ([152.2.79.192]) with mapi id 14.03.0158.001; Thu, 24 Oct 2013 09:45:55 -0400To: ITS_remsec.dg <remsec@unc.edu>Subject: inquiry about connecting a computerThread-Topic: inquiry about connecting a computerThread-Index: AQHO0L9cwJyT3w4xski5Ycqj7oFkMQ==Date: Thu, 24 Oct 2013 13:45:55 +0000 <8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT7F.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_CE8E9CBE17C75securityuncedu_"
+DEBUG -- 11/13/13 10:20:36 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 11/13/13 10:20:36 -- Keeping: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:36 -- Removing: 8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu
+DEBUG -- 11/13/13 10:20:36 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 11/13/13 10:20:36 -- Begin removing duplicate email addresses from list
+DEBUG -- 11/13/13 10:20:36 -- End removing duplicate email addresses from list
+DEBUG -- 11/13/13 10:20:36 -- End retrieving recipients from eml file
+DEBUG -- 11/13/13 10:20:36 -- Begin Show Emails Extrated
+DEBUG -- 11/13/13 10:20:36 -- remsec@unc.edu
+DEBUG -- 11/13/13 10:20:36 -- End Show Emails Extracted
+DEBUG -- 11/13/13 10:20:36 -- Begin get info from EmailIn form
+DEBUG -- 11/13/13 10:20:36 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:36 -- Retrieving email address for display to: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:36 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:36 -- Resolved Name for remsec@unc.edu is: ITS_remsec.dg
+DEBUG -- 11/13/13 10:20:36 -- Resolved Email Address for remsec@unc.edu is: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:36 -- Begin Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:38 -- End Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:38 -- Check email has EmailIn with email: remsec@unc.edu
+DEBUG -- 11/13/13 10:20:38 -- Email: remsec@unc.edu has an EmailIn form
+DEBUG -- 11/13/13 10:20:38 -- Begin creating ticket entry
+DEBUG -- 11/13/13 10:20:38 -- Retrieving from address
+DEBUG -- 11/13/13 10:20:38 -- End retrieving from address
+DEBUG -- 11/13/13 10:20:38 -- Checking if message is a forward (line only method)
+DEBUG -- 11/13/13 10:20:38 -- End checking if message is a forward (line only method)
+DEBUG -- 11/13/13 10:20:38 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:38 -- Retrieving email address for display to: Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Albert S Baldwin  Jr (abaldwin)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: albert_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Angelia G Baldwin (angeliab)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: angelia.baldwin@unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Angelo M Baldwin (ambaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: Angelo.Baldwin@facilities.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Antoine L Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: ABaldwin@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Arlisha L Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: ABaldwi2@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Arnold R Baldwin (arbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: Arnold.Baldwin@facilities.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Belinda G Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: BGBaldwi@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Bes Pittman Baldwin (lbaldwin)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: bes_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Billue F Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: BFBaldwi@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Brandy G Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: BBaldwi2@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Brenda Baldwin
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: BBaldwin@unch.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Bruce Baldwin (jbbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: bruce_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Carrie Ann Baldwin (cabaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: Carrie_Baldwin@unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Charlotte Baldwin (praisego)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: charlotte_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Geoffrey V Baldwin (gvbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: gbaldwin@unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Jacob Allen Baldwin (jabaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: jabaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: James Baldwin (jcbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: jcbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Janay Jean Baldwin (jjbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: jjbaldwi@email.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Jazmine E Baldwin (jballin1)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: jballin1@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Jean Baldwin (baldwin1)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: baldwin1@email.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Joey L Baldwin (joeyb)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: Joey.Baldwin@facilities.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Justin Tyler Baldwin (jtbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: jtbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Kendra Badger Baldwin (kendrabb)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: kendrabb@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Latisha P Baldwin (lpbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: lpbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Maddy Baldwin (wmbaldwi)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: wmbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:39 -- Resolved Name for Baldwin is: Matt Baldwin (baldwims)
+DEBUG -- 11/13/13 10:20:39 -- Resolved Email Address for Baldwin is: baldwims@live.unc.edu
+DEBUG -- 11/13/13 10:20:39 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Matthew James Cooper (coopermj)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: matthew_cooper@med.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Meghan N Baldwin
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: mbaldwi2@unch.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Melonie D Baldwin (mdbaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: mdbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Mr Jacob G Baldwin (jgbaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: jgbaldwi@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Mr Seth Baldwin (sethb35)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: sethb35@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Ms Domonique Baldwin (hacakd)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: hacakd@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Ms Lane Baldwin (albaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: lane_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Ms Lauren Baldwin (lmbaldw)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: lmbaldw@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Ms Lydia Baldwin (baldwin3)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: baldwin3@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Myria D Baldwin
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: MBaldwin@unch.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Nellie M Baldwin-Walden (cpwalden)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: NWalden@unch.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Pamela A Baldwin (pabaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: Pamela_Baldwin@unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Richard Anthony Baldwin (tonyb)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: tonybaldwin@unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Rosecrans B Baldwin (rbaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: rbaldwi@email.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Ruth Ann Lennek Baldwin (rabaldwi)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: ruth_baldwin@med.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Seth Seth Baldwin Baldwin (sethba)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: sethba@live.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Sherrie Rogers Baldwin (slrogers)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: sherrie_baldwin@unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:40 -- Resolved Name for Baldwin is: Tonya Baldwin (tdlbal)
+DEBUG -- 11/13/13 10:20:40 -- Resolved Email Address for Baldwin is: tdlbal@live.unc.edu
+INFO -- 11/13/13 10:20:40 -- Email is forwarded from: tdlbal@live.unc.edu Using forwarded from address
+DEBUG -- 11/13/13 10:20:40 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:40 -- Retrieving email address for display to: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Resovling within mailbox logic
+DEBUG -- 11/13/13 10:20:41 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 11/13/13 10:20:41 -- Resolved Email Address for tdlbal@live.unc.edu is: tdlbal@live.unc.edu
+INFO -- 11/13/13 10:20:41 -- End setting forwarded fromEmailAddress
+DEBUG -- 11/13/13 10:20:41 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Email was not found in remedy ldap with email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Retrieving exchange name for email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Resolving within mailbox logic
+DEBUG -- 11/13/13 10:20:41 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 11/13/13 10:20:41 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 11/13/13 10:20:41 -- Email was found in remedy ldap with email: tdlbal@live.unc.edu
+INFO -- 11/13/13 10:20:41 -- Setting group assigned to REMEDY-ADMIN
+INFO -- 11/13/13 10:20:41 -- A Short Description was found. Using the email-in's Short Description
+INFO -- 11/13/13 10:20:41 -- A Client Problem Description was found. Using the email-in's Client Problem Description
+DEBUG -- 11/13/13 10:20:41 -- End creating ticket entry
+DEBUG -- 11/13/13 10:20:41 -- Begin adding ticket entry to ticket list
+DEBUG -- 11/13/13 10:20:41 -- End adding ticket entry to ticket list
+INFO -- 11/13/13 10:20:41 -- No longer necessary to check email-in's for recipients
+DEBUG -- 11/13/13 10:20:41 -- End looping through message list
+INFO -- 11/13/13 10:20:41 -- End Ticket List Generation Phase
+INFO -- 11/13/13 10:20:41 -- Begin Ticket Generation Phase
+DEBUG -- 11/13/13 10:20:41 -- Update tickets set to true
+DEBUG -- 11/13/13 10:20:41 -- Begin looping through ticket list
+DEBUG -- 11/13/13 10:20:41 -- Begin createRFSTicket
+DEBUG -- 11/13/13 10:20:45 -- END createRFSTicket
+INFO -- 11/13/13 10:20:45 -- allowing messages to be moved
+DEBUG -- 11/13/13 10:20:45 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCbAAA= to Processed folder
+DEBUG -- 11/13/13 10:20:45 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 11/13/13 10:20:46 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAAAROV+SAAA= to Processed successfully
+DEBUG -- 11/13/13 10:20:46 -- End moving message
+DEBUG -- 11/13/13 10:20:46 -- Begin add entry id to entry id list
+DEBUG -- 11/13/13 10:20:46 -- End add entry id to entry id list
+DEBUG -- 11/13/13 10:20:46 -- End looping through ticket list
+INFO -- 11/13/13 10:20:46 -- End Ticket Generation Phase
+INFO -- 11/13/13 10:20:46 -- Begin ticket (entry id) dump
+INFO -- 11/13/13 10:20:46 -- 000000002596096
+INFO -- 11/13/13 10:20:46 -- End ticket (entry id) dump
+INFO -- 11/13/13 10:20:46 -- END JMEWSR
+INFO -- 03/11/14 15:57:59 -- BEGIN JMEWSR
+INFO -- 03/11/14 15:57:59 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/11/14 15:57:59 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:04 -- Checking for attachments
+DEBUG -- 03/11/14 15:58:09 -- Retrieving inbox items for download
+DEBUG -- 03/11/14 15:58:09 -- Retrieving messages
+DEBUG -- 03/11/14 15:58:09 -- There are 1 messages
+INFO -- 03/11/14 15:58:09 -- allowed email list is not in use
+INFO -- 03/11/14 15:58:09 -- spam email list is not in use
+DEBUG -- 03/11/14 15:58:09 -- Message added to message list
+DEBUG -- 03/11/14 15:58:09 -- End retrieving messages
+INFO -- 03/11/14 15:58:09 -- End Message/Item List Generation Phase
+INFO -- 03/11/14 15:58:09 -- Begin Ticket List Generation Phase
+DEBUG -- 03/11/14 15:58:09 -- Begin creating ticket entries
+DEBUG -- 03/11/14 15:58:09 -- Begin looping through message list
+DEBUG -- 03/11/14 15:58:09 -- Begin Retrieving message from message list
+DEBUG -- 03/11/14 15:58:09 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- End Retrieving message from message list
+DEBUG -- 03/11/14 15:58:10 -- Retrieving recipients from eml file
+DEBUG -- 03/11/14 15:58:10 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- Begin downloading message as eml file
+DEBUG -- 03/11/14 15:58:10 -- End downloading message as eml file
+DEBUG -- 03/11/14 15:58:10 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT4M.ad.unc.edu ([152.2.79.119]) with mapi id 14.03.0174.001; Tue, 11 Mar 2014 15:57:43 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596698Thread-Topic: Ticket 2596698Thread-Index: Ac89ZCUCWTEMI7hxSlO6sdNLCcyK3A==Date: Tue, 11 Mar 2014 19:57:43 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8DC80EF5@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT4M.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8DC80EF5ITSMSXMBS4Madun_"
+DEBUG -- 03/11/14 15:58:10 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 15:58:10 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8DC80EF5@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 15:58:10 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/11/14 15:58:10 -- End removing duplicate email addresses from list
+DEBUG -- 03/11/14 15:58:10 -- End retrieving recipients from eml file
+DEBUG -- 03/11/14 15:58:10 -- Begin Show Emails Extrated
+DEBUG -- 03/11/14 15:58:10 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- End Show Emails Extracted
+DEBUG -- 03/11/14 15:58:10 -- Message contains ticket key word in subject
+DEBUG -- 03/11/14 15:58:10 -- Ticket extracted and padded from subject line: 000000002596698
+DEBUG -- 03/11/14 15:58:10 -- Begin get info from EmailIn form
+DEBUG -- 03/11/14 15:58:10 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/11/14 15:58:10 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:10 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:13 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:13 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:13 -- Begin creating update ticket entry
+DEBUG -- 03/11/14 15:58:13 -- End adding update ticket entry to ticket list
+DEBUG -- 03/11/14 15:58:13 -- End looping through message list
+INFO -- 03/11/14 15:58:13 -- End Ticket List Generation Phase
+INFO -- 03/11/14 15:58:13 -- Begin Ticket Generation Phase
+DEBUG -- 03/11/14 15:58:13 -- Update tickets set to true
+DEBUG -- 03/11/14 15:58:13 -- Begin looping through ticket list
+DEBUG -- 03/11/14 15:58:13 -- Begin updateRFSTicket
+DEBUG -- 03/11/14 15:58:13 -- END updateRFSTicket
+INFO -- 03/11/14 15:58:13 -- allowing messages to be moved
+DEBUG -- 03/11/14 15:58:13 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/uAAA= to Processed folder
+DEBUG -- 03/11/14 15:58:13 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 15:58:14 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOiAAA= to Processed successfully
+DEBUG -- 03/11/14 15:58:14 -- End moving message
+DEBUG -- 03/11/14 15:58:14 -- Begin add entry id to entry id list
+DEBUG -- 03/11/14 15:58:14 -- End add entry id to entry id list
+DEBUG -- 03/11/14 15:58:14 -- End looping through ticket list
+INFO -- 03/11/14 15:58:14 -- End Ticket Generation Phase
+INFO -- 03/11/14 15:58:14 -- Begin ticket (entry id) dump
+INFO -- 03/11/14 15:58:14 -- 000000002596698
+INFO -- 03/11/14 15:58:14 -- End ticket (entry id) dump
+INFO -- 03/11/14 15:58:14 -- END JMEWSR
+INFO -- 03/11/14 16:13:39 -- BEGIN JMEWSR
+INFO -- 03/11/14 16:13:39 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/11/14 16:13:39 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:40 -- Checking for attachments
+DEBUG -- 03/11/14 16:13:40 -- Retrieving inbox items for download
+DEBUG -- 03/11/14 16:13:40 -- Retrieving messages
+DEBUG -- 03/11/14 16:13:40 -- There are 1 messages
+INFO -- 03/11/14 16:13:40 -- allowed email list is not in use
+INFO -- 03/11/14 16:13:40 -- spam email list is not in use
+DEBUG -- 03/11/14 16:13:40 -- Message added to message list
+DEBUG -- 03/11/14 16:13:40 -- End retrieving messages
+INFO -- 03/11/14 16:13:40 -- End Message/Item List Generation Phase
+INFO -- 03/11/14 16:13:40 -- Begin Ticket List Generation Phase
+DEBUG -- 03/11/14 16:13:40 -- Begin creating ticket entries
+DEBUG -- 03/11/14 16:13:40 -- Begin looping through message list
+DEBUG -- 03/11/14 16:13:40 -- Begin Retrieving message from message list
+DEBUG -- 03/11/14 16:13:40 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- End Retrieving message from message list
+DEBUG -- 03/11/14 16:13:41 -- Retrieving recipients from eml file
+DEBUG -- 03/11/14 16:13:41 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- Begin downloading message as eml file
+DEBUG -- 03/11/14 16:13:41 -- End downloading message as eml file
+DEBUG -- 03/11/14 16:13:41 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT6F.ad.unc.edu ([152.2.79.193]) with mapi id 14.03.0174.001; Tue, 11 Mar 2014 16:13:22 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596698Thread-Topic: Ticket 2596698Thread-Index: Ac89ZjdTupVIQW3YQ0CoPrLd8l8D1w==Date: Tue, 11 Mar 2014 20:13:22 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8DC80F52@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT6F.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8DC80F52ITSMSXMBS4Madun_"
+DEBUG -- 03/11/14 16:13:41 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 16:13:41 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8DC80F52@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 16:13:41 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/11/14 16:13:41 -- End removing duplicate email addresses from list
+DEBUG -- 03/11/14 16:13:41 -- End retrieving recipients from eml file
+DEBUG -- 03/11/14 16:13:41 -- Begin Show Emails Extrated
+DEBUG -- 03/11/14 16:13:41 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- End Show Emails Extracted
+DEBUG -- 03/11/14 16:13:41 -- Message contains ticket key word in subject
+DEBUG -- 03/11/14 16:13:41 -- Ticket extracted and padded from subject line: 000000002596698
+DEBUG -- 03/11/14 16:13:41 -- Begin get info from EmailIn form
+DEBUG -- 03/11/14 16:13:41 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/11/14 16:13:41 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:41 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:42 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:42 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:42 -- Begin creating update ticket entry
+DEBUG -- 03/11/14 16:13:42 -- End adding update ticket entry to ticket list
+DEBUG -- 03/11/14 16:13:42 -- End looping through message list
+INFO -- 03/11/14 16:13:42 -- End Ticket List Generation Phase
+INFO -- 03/11/14 16:13:42 -- Begin Ticket Generation Phase
+DEBUG -- 03/11/14 16:13:42 -- Update tickets set to true
+DEBUG -- 03/11/14 16:13:42 -- Begin looping through ticket list
+DEBUG -- 03/11/14 16:13:42 -- Begin updateRFSTicket
+DEBUG -- 03/11/14 16:13:43 -- END updateRFSTicket
+INFO -- 03/11/14 16:13:43 -- allowing messages to be moved
+DEBUG -- 03/11/14 16:13:43 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/vAAA= to Processed folder
+DEBUG -- 03/11/14 16:13:43 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:13:43 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOjAAA= to Processed successfully
+DEBUG -- 03/11/14 16:13:43 -- End moving message
+DEBUG -- 03/11/14 16:13:43 -- Begin add entry id to entry id list
+DEBUG -- 03/11/14 16:13:43 -- End add entry id to entry id list
+DEBUG -- 03/11/14 16:13:43 -- End looping through ticket list
+INFO -- 03/11/14 16:13:43 -- End Ticket Generation Phase
+INFO -- 03/11/14 16:13:43 -- Begin ticket (entry id) dump
+INFO -- 03/11/14 16:13:43 -- 000000002596698
+INFO -- 03/11/14 16:13:43 -- End ticket (entry id) dump
+INFO -- 03/11/14 16:13:43 -- END JMEWSR
+INFO -- 03/11/14 16:37:11 -- BEGIN JMEWSR
+INFO -- 03/11/14 16:37:11 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/11/14 16:37:11 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:11 -- Checking for attachments
+DEBUG -- 03/11/14 16:37:12 -- Retrieving inbox items for download
+DEBUG -- 03/11/14 16:37:12 -- Retrieving messages
+DEBUG -- 03/11/14 16:37:12 -- There are 1 messages
+INFO -- 03/11/14 16:37:12 -- allowed email list is not in use
+INFO -- 03/11/14 16:37:12 -- spam email list is not in use
+DEBUG -- 03/11/14 16:37:12 -- Message added to message list
+DEBUG -- 03/11/14 16:37:12 -- End retrieving messages
+INFO -- 03/11/14 16:37:12 -- End Message/Item List Generation Phase
+INFO -- 03/11/14 16:37:12 -- Begin Ticket List Generation Phase
+DEBUG -- 03/11/14 16:37:12 -- Begin creating ticket entries
+DEBUG -- 03/11/14 16:37:12 -- Begin looping through message list
+DEBUG -- 03/11/14 16:37:12 -- Begin Retrieving message from message list
+DEBUG -- 03/11/14 16:37:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:12 -- End Retrieving message from message list
+DEBUG -- 03/11/14 16:37:12 -- Retrieving recipients from eml file
+DEBUG -- 03/11/14 16:37:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:12 -- Begin downloading message as eml file
+DEBUG -- 03/11/14 16:37:12 -- End downloading message as eml file
+DEBUG -- 03/11/14 16:37:12 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT0.ad.unc.edu ([172.27.172.65]) with mapi id 14.03.0174.001; Tue, 11 Mar 2014 16:36:51 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596698Thread-Topic: Ticket 2596698Thread-Index: Ac89aZrqa2W+Wn8cSkiot+HhBu69YQ==Date: Tue, 11 Mar 2014 20:36:50 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8DC8101F@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT0.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8DC8101FITSMSXMBS4Madun_"
+DEBUG -- 03/11/14 16:37:12 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 16:37:12 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:12 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8DC8101F@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/11/14 16:37:12 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 16:37:12 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/11/14 16:37:12 -- End removing duplicate email addresses from list
+DEBUG -- 03/11/14 16:37:12 -- End retrieving recipients from eml file
+DEBUG -- 03/11/14 16:37:12 -- Begin Show Emails Extrated
+DEBUG -- 03/11/14 16:37:12 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:12 -- End Show Emails Extracted
+DEBUG -- 03/11/14 16:37:12 -- Message contains ticket key word in subject
+DEBUG -- 03/11/14 16:37:12 -- Ticket extracted and padded from subject line: 000000002596698
+DEBUG -- 03/11/14 16:37:13 -- Begin get info from EmailIn form
+DEBUG -- 03/11/14 16:37:13 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:13 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/11/14 16:37:13 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:13 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:14 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:14 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:14 -- Begin creating update ticket entry
+DEBUG -- 03/11/14 16:37:14 -- End adding update ticket entry to ticket list
+DEBUG -- 03/11/14 16:37:14 -- End looping through message list
+INFO -- 03/11/14 16:37:14 -- End Ticket List Generation Phase
+INFO -- 03/11/14 16:37:14 -- Begin Ticket Generation Phase
+DEBUG -- 03/11/14 16:37:14 -- Update tickets set to true
+DEBUG -- 03/11/14 16:37:14 -- Begin looping through ticket list
+DEBUG -- 03/11/14 16:37:14 -- Begin updateRFSTicket
+DEBUG -- 03/11/14 16:37:14 -- END updateRFSTicket
+INFO -- 03/11/14 16:37:14 -- allowing messages to be moved
+DEBUG -- 03/11/14 16:37:14 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/wAAA= to Processed folder
+DEBUG -- 03/11/14 16:37:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 16:37:14 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOkAAA= to Processed successfully
+DEBUG -- 03/11/14 16:37:14 -- End moving message
+DEBUG -- 03/11/14 16:37:14 -- Begin add entry id to entry id list
+DEBUG -- 03/11/14 16:37:14 -- End add entry id to entry id list
+DEBUG -- 03/11/14 16:37:14 -- End looping through ticket list
+INFO -- 03/11/14 16:37:14 -- End Ticket Generation Phase
+INFO -- 03/11/14 16:37:14 -- Begin ticket (entry id) dump
+INFO -- 03/11/14 16:37:14 -- 000000002596698
+INFO -- 03/11/14 16:37:14 -- End ticket (entry id) dump
+INFO -- 03/11/14 16:37:14 -- END JMEWSR
+INFO -- 03/11/14 17:08:21 -- BEGIN JMEWSR
+INFO -- 03/11/14 17:08:21 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/11/14 17:08:21 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:25 -- Checking for attachments
+DEBUG -- 03/11/14 17:08:28 -- Retrieving inbox items for download
+DEBUG -- 03/11/14 17:08:28 -- Retrieving messages
+DEBUG -- 03/11/14 17:08:28 -- There are 1 messages
+INFO -- 03/11/14 17:08:28 -- allowed email list is not in use
+INFO -- 03/11/14 17:08:28 -- spam email list is not in use
+DEBUG -- 03/11/14 17:08:28 -- Message added to message list
+DEBUG -- 03/11/14 17:08:28 -- End retrieving messages
+INFO -- 03/11/14 17:08:28 -- End Message/Item List Generation Phase
+INFO -- 03/11/14 17:08:28 -- Begin Ticket List Generation Phase
+DEBUG -- 03/11/14 17:08:29 -- Begin creating ticket entries
+DEBUG -- 03/11/14 17:08:29 -- Begin looping through message list
+DEBUG -- 03/11/14 17:08:29 -- Begin Retrieving message from message list
+DEBUG -- 03/11/14 17:08:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- End Retrieving message from message list
+DEBUG -- 03/11/14 17:08:29 -- Retrieving recipients from eml file
+DEBUG -- 03/11/14 17:08:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- Begin downloading message as eml file
+DEBUG -- 03/11/14 17:08:29 -- End downloading message as eml file
+DEBUG -- 03/11/14 17:08:29 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT5M.ad.unc.edu ([152.2.79.120]) with mapi id 14.03.0174.001; Tue, 11 Mar 2014 17:07:42 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596698Thread-Topic: Ticket 2596698Thread-Index: Ac89benFVdBe9OllRZCbYfmkbrpChQ==Date: Tue, 11 Mar 2014 21:07:40 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8DC810BC@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT5M.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8DC810BCITSMSXMBS4Madun_"
+DEBUG -- 03/11/14 17:08:29 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 17:08:29 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8DC810BC@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/11/14 17:08:29 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/11/14 17:08:29 -- End removing duplicate email addresses from list
+DEBUG -- 03/11/14 17:08:29 -- End retrieving recipients from eml file
+DEBUG -- 03/11/14 17:08:29 -- Begin Show Emails Extrated
+DEBUG -- 03/11/14 17:08:29 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- End Show Emails Extracted
+DEBUG -- 03/11/14 17:08:29 -- Message contains ticket key word in subject
+DEBUG -- 03/11/14 17:08:29 -- Ticket extracted and padded from subject line: 000000002596698
+DEBUG -- 03/11/14 17:08:29 -- Begin get info from EmailIn form
+DEBUG -- 03/11/14 17:08:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/11/14 17:08:29 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:29 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:35 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:35 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:35 -- Begin creating update ticket entry
+DEBUG -- 03/11/14 17:08:35 -- End adding update ticket entry to ticket list
+DEBUG -- 03/11/14 17:08:35 -- End looping through message list
+INFO -- 03/11/14 17:08:35 -- End Ticket List Generation Phase
+INFO -- 03/11/14 17:08:35 -- Begin Ticket Generation Phase
+DEBUG -- 03/11/14 17:08:35 -- Update tickets set to true
+DEBUG -- 03/11/14 17:08:35 -- Begin looping through ticket list
+DEBUG -- 03/11/14 17:08:35 -- Begin updateRFSTicket
+DEBUG -- 03/11/14 17:08:36 -- END updateRFSTicket
+INFO -- 03/11/14 17:08:36 -- allowing messages to be moved
+DEBUG -- 03/11/14 17:08:36 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/xAAA= to Processed folder
+DEBUG -- 03/11/14 17:08:36 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/11/14 17:08:36 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOlAAA= to Processed successfully
+DEBUG -- 03/11/14 17:08:36 -- End moving message
+DEBUG -- 03/11/14 17:08:36 -- Begin add entry id to entry id list
+DEBUG -- 03/11/14 17:08:36 -- End add entry id to entry id list
+DEBUG -- 03/11/14 17:08:36 -- End looping through ticket list
+INFO -- 03/11/14 17:08:36 -- End Ticket Generation Phase
+INFO -- 03/11/14 17:08:36 -- Begin ticket (entry id) dump
+INFO -- 03/11/14 17:08:36 -- 000000002596698
+INFO -- 03/11/14 17:08:36 -- End ticket (entry id) dump
+INFO -- 03/11/14 17:08:36 -- END JMEWSR
+INFO -- 03/12/14 09:15:08 -- BEGIN JMEWSR
+INFO -- 03/12/14 09:15:08 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 09:15:08 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:11 -- Checking for attachments
+DEBUG -- 03/12/14 09:15:14 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 09:15:14 -- Retrieving messages
+DEBUG -- 03/12/14 09:15:14 -- There are 2 messages
+INFO -- 03/12/14 09:15:14 -- allowed email list is not in use
+INFO -- 03/12/14 09:15:14 -- spam email list is not in use
+DEBUG -- 03/12/14 09:15:14 -- Message added to message list
+INFO -- 03/12/14 09:15:14 -- allowed email list is not in use
+INFO -- 03/12/14 09:15:14 -- spam email list is not in use
+DEBUG -- 03/12/14 09:15:14 -- Message added to message list
+DEBUG -- 03/12/14 09:15:14 -- End retrieving messages
+INFO -- 03/12/14 09:15:14 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 09:15:14 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 09:15:14 -- Begin creating ticket entries
+DEBUG -- 03/12/14 09:15:14 -- Begin looping through message list
+DEBUG -- 03/12/14 09:15:14 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:15:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:15:15 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:15:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 09:15:15 -- End downloading message as eml file
+DEBUG -- 03/12/14 09:15:15 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT4M.ad.unc.edu ([152.2.79.119]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 09:14:44 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac899PZKvJ86IVn4TtK+HyKZbNLwtw==Date: Wed, 12 Mar 2014 13:14:44 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E675CBE@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT4M.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E675CBEITSMSXMBS4Madun_"
+DEBUG -- 03/12/14 09:15:15 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:15:15 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E675CBE@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:15:15 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:15:15 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:15:15 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 09:15:15 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 09:15:15 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- End Show Emails Extracted
+DEBUG -- 03/12/14 09:15:15 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 09:15:15 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 09:15:15 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 09:15:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:15 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 09:15:16 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:16 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:19 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:19 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:19 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 09:15:19 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 09:15:19 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:15:19 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+ERROR -- 03/12/14 09:15:20 -- getMessageForITem ServiceException
+DEBUG -- 03/12/14 09:15:20 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:15:20 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:15:20 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:15:20 -- Begin downloading message as eml file
+ERROR -- 03/12/14 09:15:20 -- getMessageForITem ServiceException
+INFO -- 03/12/14 09:24:18 -- BEGIN JMEWSR
+INFO -- 03/12/14 09:24:18 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 09:24:18 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:19 -- Checking for attachments
+DEBUG -- 03/12/14 09:24:20 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 09:24:20 -- Retrieving messages
+DEBUG -- 03/12/14 09:24:20 -- There are 1 messages
+INFO -- 03/12/14 09:24:20 -- allowed email list is not in use
+INFO -- 03/12/14 09:24:20 -- spam email list is not in use
+DEBUG -- 03/12/14 09:24:20 -- Message added to message list
+DEBUG -- 03/12/14 09:24:20 -- End retrieving messages
+INFO -- 03/12/14 09:24:20 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 09:24:20 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 09:24:20 -- Begin creating ticket entries
+DEBUG -- 03/12/14 09:24:20 -- Begin looping through message list
+DEBUG -- 03/12/14 09:24:20 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:24:20 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:24:21 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:24:21 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 09:24:21 -- End downloading message as eml file
+DEBUG -- 03/12/14 09:24:21 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 09:17:06 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac899VJREPE2uPkURDCXLKCWog/Qkw==Date: Wed, 12 Mar 2014 13:17:04 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E675CE4@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E675CE4ITSMSXMBS4Madun_"
+DEBUG -- 03/12/14 09:24:21 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:24:21 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E675CE4@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:24:21 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:24:21 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:24:21 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 09:24:21 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 09:24:21 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- End Show Emails Extracted
+DEBUG -- 03/12/14 09:24:21 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 09:24:21 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 09:24:21 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 09:24:21 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 09:24:21 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:21 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:24 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:24 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:24 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 09:24:24 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 09:24:24 -- End looping through message list
+INFO -- 03/12/14 09:24:24 -- End Ticket List Generation Phase
+INFO -- 03/12/14 09:24:24 -- Begin Ticket Generation Phase
+DEBUG -- 03/12/14 09:24:24 -- Update tickets set to true
+DEBUG -- 03/12/14 09:24:24 -- Begin looping through ticket list
+DEBUG -- 03/12/14 09:24:24 -- Begin updateRFSTicket
+DEBUG -- 03/12/14 09:24:24 -- END updateRFSTicket
+INFO -- 03/12/14 09:24:24 -- allowing messages to be moved
+DEBUG -- 03/12/14 09:24:24 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/1AAA= to Processed folder
+DEBUG -- 03/12/14 09:24:24 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:24:25 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOmAAA= to Processed successfully
+DEBUG -- 03/12/14 09:24:25 -- End moving message
+DEBUG -- 03/12/14 09:24:25 -- Begin add entry id to entry id list
+DEBUG -- 03/12/14 09:24:25 -- End add entry id to entry id list
+DEBUG -- 03/12/14 09:24:25 -- End looping through ticket list
+INFO -- 03/12/14 09:24:25 -- End Ticket Generation Phase
+INFO -- 03/12/14 09:24:25 -- Begin ticket (entry id) dump
+INFO -- 03/12/14 09:24:25 -- 000000002596708
+INFO -- 03/12/14 09:24:25 -- End ticket (entry id) dump
+INFO -- 03/12/14 09:24:25 -- END JMEWSR
+INFO -- 03/12/14 09:30:11 -- BEGIN JMEWSR
+INFO -- 03/12/14 09:30:11 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 09:30:11 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:11 -- Checking for attachments
+DEBUG -- 03/12/14 09:30:11 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 09:30:12 -- Retrieving messages
+DEBUG -- 03/12/14 09:30:12 -- There are 1 messages
+INFO -- 03/12/14 09:30:12 -- allowed email list is not in use
+INFO -- 03/12/14 09:30:12 -- spam email list is not in use
+DEBUG -- 03/12/14 09:30:12 -- Message added to message list
+DEBUG -- 03/12/14 09:30:12 -- End retrieving messages
+INFO -- 03/12/14 09:30:12 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 09:30:12 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 09:30:12 -- Begin creating ticket entries
+DEBUG -- 03/12/14 09:30:12 -- Begin looping through message list
+DEBUG -- 03/12/14 09:30:12 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:30:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:30:12 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:30:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 09:30:12 -- End downloading message as eml file
+DEBUG -- 03/12/14 09:30:12 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT6F.ad.unc.edu ([152.2.79.193]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 09:29:58 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac899wyiklAqS5TzQQCeFjjPHaQyaA==Date: Wed, 12 Mar 2014 13:29:58 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E675D3F@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT6F.ad.unc.eduX-MS-Has-Attach:X-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E675D3FITSMSXMBS4Madun_"
+DEBUG -- 03/12/14 09:30:12 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:30:12 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E675D3F@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:30:12 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:30:12 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:30:12 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 09:30:12 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 09:30:12 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- End Show Emails Extracted
+DEBUG -- 03/12/14 09:30:12 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 09:30:12 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 09:30:12 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 09:30:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:12 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 09:30:13 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:13 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:14 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:14 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:14 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 09:30:14 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 09:30:14 -- End looping through message list
+INFO -- 03/12/14 09:30:14 -- End Ticket List Generation Phase
+INFO -- 03/12/14 09:30:14 -- Begin Ticket Generation Phase
+DEBUG -- 03/12/14 09:30:14 -- Update tickets set to true
+DEBUG -- 03/12/14 09:30:14 -- Begin looping through ticket list
+DEBUG -- 03/12/14 09:30:14 -- Begin updateRFSTicket
+DEBUG -- 03/12/14 09:30:14 -- END updateRFSTicket
+INFO -- 03/12/14 09:30:14 -- allowing messages to be moved
+DEBUG -- 03/12/14 09:30:14 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/2AAA= to Processed folder
+DEBUG -- 03/12/14 09:30:14 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:30:14 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOnAAA= to Processed successfully
+DEBUG -- 03/12/14 09:30:14 -- End moving message
+DEBUG -- 03/12/14 09:30:14 -- Begin add entry id to entry id list
+DEBUG -- 03/12/14 09:30:14 -- End add entry id to entry id list
+DEBUG -- 03/12/14 09:30:14 -- End looping through ticket list
+INFO -- 03/12/14 09:30:14 -- End Ticket Generation Phase
+INFO -- 03/12/14 09:30:14 -- Begin ticket (entry id) dump
+INFO -- 03/12/14 09:30:14 -- 000000002596708
+INFO -- 03/12/14 09:30:14 -- End ticket (entry id) dump
+INFO -- 03/12/14 09:30:15 -- END JMEWSR
+INFO -- 03/12/14 09:36:57 -- BEGIN JMEWSR
+INFO -- 03/12/14 09:36:57 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 09:36:57 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:36:59 -- Checking for attachments
+DEBUG -- 03/12/14 09:37:00 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 09:37:00 -- Retrieving messages
+DEBUG -- 03/12/14 09:37:00 -- There are 2 messages
+INFO -- 03/12/14 09:37:01 -- allowed email list is not in use
+INFO -- 03/12/14 09:37:01 -- spam email list is not in use
+DEBUG -- 03/12/14 09:37:01 -- Message added to message list
+INFO -- 03/12/14 09:37:01 -- allowed email list is not in use
+INFO -- 03/12/14 09:37:01 -- spam email list is not in use
+DEBUG -- 03/12/14 09:37:01 -- Message added to message list
+DEBUG -- 03/12/14 09:37:01 -- End retrieving messages
+INFO -- 03/12/14 09:37:01 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 09:37:01 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 09:37:01 -- Begin creating ticket entries
+DEBUG -- 03/12/14 09:37:01 -- Begin looping through message list
+DEBUG -- 03/12/14 09:37:01 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:37:01 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:01 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:37:01 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:37:01 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:01 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 09:37:01 -- End downloading message as eml file
+DEBUG -- 03/12/14 09:37:01 -- RAW Recipient Line: nullReceived: from mxip9i.isis.unc.edu (152.2.2.207) by ITS-MSXHT7F.ad.unc.edu (152.2.79.192) with Microsoft SMTP Server id 14.3.174.1; Wed, 12 Mar 2014 09:30:53 -0400X-RemoteIP: 152.2.224.133X-MID: 2011239X-IronPort-Anti-Spam-Filtered: trueX-IronPort-Anti-Spam-Result: ApIFAH/eWFKYAuCF/2dsb2JhbAA0Aw6BRYMOnDOCL4EHgh9rLxkClQ6GM4dahkmBH4whTAMDhA4FggiBFgSnaFMX-IPAS-Result: ApIFAH/eWFKYAuCF/2dsb2JhbAA0Aw6BRYMOnDOCL4EHgh9rLxkClQ6GM4dahkmBH4whTAMDhA4FggiBFgSnaFMX-IronPort-AV: E=Sophos;i="4.87,1,1363147200";    d="scan'208";a="2011239"Received: from remedy10.isis.unc.edu ([152.2.224.133])  by mxip9o.isis.unc.edu with ESMTP/TLS/RC4-SHA; 12 Mar 2014 09:30:53 -0400Received: from remedy10.isis.unc.edu (localhost [127.0.0.1])	by remedy10.isis.unc.edu (8.14.4/8.14.4) with ESMTP id s2CDUrjY002028	for <its_remedy-test.svc@ad.unc.edu>; Wed, 12 Mar 2014 09:30:53 -0400Date: Wed, 12 Mar 2014 09:30:53 -0400To: <its_remedy-test.svc@ad.unc.edu>Subject: RFS: Not ACK Notice 1 for Mowery, W., IMP, , Ticket 2596708, To REMEDY-ADMIN, Test TicketContent-Type: multipart/alternative;	boundary="----=_Part_6163_489979422.1394631053798"X-MS-Exchange-Organization-AuthSource: ITS-MSXHT7F.ad.unc.eduX-MS-Exchange-Organization-AuthAs: Anonymous
+DEBUG -- 03/12/14 09:37:01 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:37:01 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:01 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:01 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:37:01 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:37:02 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:37:02 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 09:37:02 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 09:37:02 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:02 -- End Show Emails Extracted
+DEBUG -- 03/12/14 09:37:02 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 09:37:02 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 09:37:02 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 09:37:02 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:02 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 09:37:02 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:02 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 09:37:04 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 09:37:04 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 09:37:04 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- End Retrieving message from message list
+DEBUG -- 03/12/14 09:37:04 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 09:37:04 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 09:37:04 -- End downloading message as eml file
+DEBUG -- 03/12/14 09:37:04 -- RAW Recipient Line: nullReceived: from mxip8i.isis.unc.edu (152.2.2.205) by ITS-MSXHT6F.ad.unc.edu (152.2.79.193) with Microsoft SMTP Server id 14.3.174.1; Wed, 12 Mar 2014 09:30:53 -0400X-RemoteIP: 152.2.224.133X-MID: 2006904X-IronPort-Anti-Spam-Filtered: trueX-IronPort-Anti-Spam-Result: ApIFAH/eWFKYAuCF/2dsb2JhbAA0Aw6BRYMOnDOCL4EHgh9rLxkClQ6GM4dahkmBH4whTAMDhA4FggiBFgSnaFMX-IPAS-Result: ApIFAH/eWFKYAuCF/2dsb2JhbAA0Aw6BRYMOnDOCL4EHgh9rLxkClQ6GM4dahkmBH4whTAMDhA4FggiBFgSnaFMX-IronPort-AV: E=Sophos;i="4.87,1,1363147200";    d="scan'208";a="2006904"Received: from remedy10.isis.unc.edu ([152.2.224.133])  by mxip8o.isis.unc.edu with ESMTP/TLS/RC4-SHA; 12 Mar 2014 09:30:53 -0400Received: from remedy10.isis.unc.edu (localhost [127.0.0.1])	by remedy10.isis.unc.edu (8.14.4/8.14.4) with ESMTP id s2CCrqVG032718	for <its_remedy-test.svc@ad.unc.edu>; Wed, 12 Mar 2014 09:30:53 -0400Date: Wed, 12 Mar 2014 09:30:53 -0400To: <its_remedy-test.svc@ad.unc.edu>Subject: RFS: Not ACK Notice 1 for Mowery, W., IMP, , Ticket 2596708, To REMEDY-ADMIN, Test TicketContent-Type: multipart/alternative;	boundary="----=_Part_6164_1199644519.1394631053821"X-MS-Exchange-Organization-AuthSource: ITS-MSXHT6F.ad.unc.eduX-MS-Exchange-Organization-AuthAs: Anonymous
+DEBUG -- 03/12/14 09:37:04 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:37:04 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 09:37:04 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:37:04 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 09:37:04 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 09:37:04 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 09:37:04 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- End Show Emails Extracted
+DEBUG -- 03/12/14 09:37:04 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 09:37:04 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 09:37:04 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 09:37:04 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 09:37:04 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:04 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 09:37:04 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 09:37:04 -- End looping through message list
+INFO -- 03/12/14 09:37:04 -- End Ticket List Generation Phase
+INFO -- 03/12/14 09:37:04 -- Begin Ticket Generation Phase
+DEBUG -- 03/12/14 09:37:04 -- Update tickets set to true
+DEBUG -- 03/12/14 09:37:04 -- Begin looping through ticket list
+DEBUG -- 03/12/14 09:37:04 -- Begin updateRFSTicket
+DEBUG -- 03/12/14 09:37:05 -- END updateRFSTicket
+INFO -- 03/12/14 09:37:05 -- allowing messages to be moved
+DEBUG -- 03/12/14 09:37:05 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/4AAA= to Processed folder
+DEBUG -- 03/12/14 09:37:05 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:05 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOoAAA= to Processed successfully
+DEBUG -- 03/12/14 09:37:05 -- End moving message
+DEBUG -- 03/12/14 09:37:05 -- Begin add entry id to entry id list
+DEBUG -- 03/12/14 09:37:05 -- End add entry id to entry id list
+DEBUG -- 03/12/14 09:37:05 -- Begin updateRFSTicket
+DEBUG -- 03/12/14 09:37:05 -- END updateRFSTicket
+INFO -- 03/12/14 09:37:05 -- allowing messages to be moved
+DEBUG -- 03/12/14 09:37:05 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAB9CF8PeEB0R4Fgo/XD41eMAABAdg/3AAA= to Processed folder
+DEBUG -- 03/12/14 09:37:05 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:07 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOpAAA= to Processed successfully
+DEBUG -- 03/12/14 09:37:07 -- End moving message
+DEBUG -- 03/12/14 09:37:07 -- Begin add entry id to entry id list
+DEBUG -- 03/12/14 09:37:07 -- End add entry id to entry id list
+DEBUG -- 03/12/14 09:37:07 -- End looping through ticket list
+INFO -- 03/12/14 09:37:07 -- End Ticket Generation Phase
+INFO -- 03/12/14 09:37:07 -- Begin ticket (entry id) dump
+INFO -- 03/12/14 09:37:07 -- 000000002596708
+INFO -- 03/12/14 09:37:07 -- 000000002596708
+INFO -- 03/12/14 09:37:07 -- End ticket (entry id) dump
+INFO -- 03/12/14 09:37:07 -- END JMEWSR
+INFO -- 03/12/14 09:37:28 -- BEGIN JMEWSR
+INFO -- 03/12/14 09:37:28 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 09:37:28 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 09:37:29 -- Checking for attachments
+DEBUG -- 03/12/14 09:37:29 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 09:37:29 -- Retrieving messages
+DEBUG -- 03/12/14 09:37:29 -- There are 0 messages
+DEBUG -- 03/12/14 09:37:29 -- End retrieving messages
+INFO -- 03/12/14 09:37:29 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 09:37:29 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 09:37:29 -- Begin creating ticket entries
+DEBUG -- 03/12/14 09:37:29 -- Begin looping through message list
+DEBUG -- 03/12/14 09:37:29 -- End looping through message list
+INFO -- 03/12/14 09:37:29 -- End Ticket List Generation Phase
+INFO -- 03/12/14 09:37:29 -- Begin Ticket Generation Phase
+DEBUG -- 03/12/14 09:37:29 -- Update tickets set to true
+DEBUG -- 03/12/14 09:37:29 -- Begin looping through ticket list
+DEBUG -- 03/12/14 09:37:29 -- End looping through ticket list
+INFO -- 03/12/14 09:37:29 -- End Ticket Generation Phase
+INFO -- 03/12/14 09:37:29 -- Begin ticket (entry id) dump
+INFO -- 03/12/14 09:37:29 -- End ticket (entry id) dump
+INFO -- 03/12/14 09:37:29 -- END JMEWSR
+INFO -- 03/12/14 14:16:58 -- BEGIN JMEWSR
+INFO -- 03/12/14 14:16:58 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/12/14 14:16:58 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:05 -- Checking for attachments
+DEBUG -- 03/12/14 14:17:11 -- Retrieving inbox items for download
+DEBUG -- 03/12/14 14:17:11 -- Retrieving messages
+DEBUG -- 03/12/14 14:17:11 -- There are 1 messages
+INFO -- 03/12/14 14:17:12 -- allowed email list is not in use
+INFO -- 03/12/14 14:17:12 -- spam email list is not in use
+DEBUG -- 03/12/14 14:17:12 -- Message added to message list
+DEBUG -- 03/12/14 14:17:12 -- End retrieving messages
+INFO -- 03/12/14 14:17:12 -- End Message/Item List Generation Phase
+INFO -- 03/12/14 14:17:12 -- Begin Ticket List Generation Phase
+DEBUG -- 03/12/14 14:17:12 -- Begin creating ticket entries
+DEBUG -- 03/12/14 14:17:12 -- Begin looping through message list
+DEBUG -- 03/12/14 14:17:12 -- Begin Retrieving message from message list
+DEBUG -- 03/12/14 14:17:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:12 -- End Retrieving message from message list
+DEBUG -- 03/12/14 14:17:12 -- Retrieving recipients from eml file
+DEBUG -- 03/12/14 14:17:12 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:12 -- Begin downloading message as eml file
+DEBUG -- 03/12/14 14:17:13 -- End downloading message as eml file
+DEBUG -- 03/12/14 14:17:13 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT5M.ad.unc.edu ([152.2.79.120]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 14:13:01 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac8+Hqzoi0giRS3KSoWWTlbYk1S1xg==Date: Wed, 12 Mar 2014 18:13:00 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E6762CA@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT5M.ad.unc.eduX-MS-Has-Attach:X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E6762CAITSMSXMBS4Madun_"
+DEBUG -- 03/12/14 14:17:13 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 14:17:13 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:13 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E6762CA@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/12/14 14:17:13 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/12/14 14:17:13 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/12/14 14:17:13 -- End removing duplicate email addresses from list
+DEBUG -- 03/12/14 14:17:13 -- End retrieving recipients from eml file
+DEBUG -- 03/12/14 14:17:13 -- Begin Show Emails Extrated
+DEBUG -- 03/12/14 14:17:13 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:13 -- End Show Emails Extracted
+DEBUG -- 03/12/14 14:17:13 -- Message contains ticket key word in subject
+DEBUG -- 03/12/14 14:17:13 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/12/14 14:17:13 -- Begin get info from EmailIn form
+DEBUG -- 03/12/14 14:17:13 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:13 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/12/14 14:17:13 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:13 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:16 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:16 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:16 -- Begin creating update ticket entry
+DEBUG -- 03/12/14 14:17:16 -- End adding update ticket entry to ticket list
+DEBUG -- 03/12/14 14:17:16 -- End looping through message list
+INFO -- 03/12/14 14:17:16 -- End Ticket List Generation Phase
+INFO -- 03/12/14 14:17:16 -- Begin Ticket Generation Phase
+DEBUG -- 03/12/14 14:17:16 -- Update tickets set to true
+DEBUG -- 03/12/14 14:17:16 -- Begin looping through ticket list
+DEBUG -- 03/12/14 14:17:16 -- Begin updateRFSTicket
+DEBUG -- 03/12/14 14:17:17 -- END updateRFSTicket
+INFO -- 03/12/14 14:17:17 -- allowing messages to be moved
+DEBUG -- 03/12/14 14:17:17 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCcAAA= to Processed folder
+DEBUG -- 03/12/14 14:17:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/12/14 14:17:17 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjOvAAA= to Processed successfully
+DEBUG -- 03/12/14 14:17:17 -- End moving message
+DEBUG -- 03/12/14 14:17:17 -- Begin add entry id to entry id list
+DEBUG -- 03/12/14 14:17:17 -- End add entry id to entry id list
+DEBUG -- 03/12/14 14:17:17 -- End looping through ticket list
+INFO -- 03/12/14 14:17:17 -- End Ticket Generation Phase
+INFO -- 03/12/14 14:17:17 -- Begin ticket (entry id) dump
+INFO -- 03/12/14 14:17:17 -- 000000002596708
+INFO -- 03/12/14 14:17:17 -- End ticket (entry id) dump
+INFO -- 03/12/14 14:17:17 -- END JMEWSR
+INFO -- 03/20/14 10:04:24 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:04:24 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:04:24 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:04:26 -- Checking for attachments
+DEBUG -- 03/20/14 10:04:28 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:04:28 -- Retrieving messages
+DEBUG -- 03/20/14 10:04:28 -- There are 7 messages
+ERROR -- 03/20/14 10:04:28 -- getMessageForITem ServiceException
+INFO -- 03/20/14 10:06:21 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:06:21 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:06:21 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:06:21 -- Checking for attachments
+ERROR -- 03/20/14 10:06:21 -- Error stripping attachmentsService Unavailable
+DEBUG -- 03/20/14 10:06:21 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:06:21 -- Retrieving messages
+DEBUG -- 03/20/14 10:06:21 -- There are 4 messages
+ERROR -- 03/20/14 10:06:22 -- getMessageForITem ServiceException
+INFO -- 03/20/14 10:17:45 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:17:45 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:17:45 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:17:46 -- Checking for attachments
+ERROR -- 03/20/14 10:17:46 -- Error stripping attachmentsService Unavailable
+DEBUG -- 03/20/14 10:17:46 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:17:47 -- Retrieving messages
+DEBUG -- 03/20/14 10:17:47 -- There are 4 messages
+DEBUG -- 03/20/14 10:17:47 -- Message added to message list
+ERROR -- 03/20/14 10:17:47 -- getMessageForITem ServiceException
+DEBUG -- 03/20/14 10:17:47 -- Message added to message list
+ERROR -- 03/20/14 10:17:47 -- getMessageForITem ServiceException
+DEBUG -- 03/20/14 10:17:47 -- Message added to message list
+DEBUG -- 03/20/14 10:17:47 -- Message added to message list
+DEBUG -- 03/20/14 10:17:47 -- End retrieving messages
+INFO -- 03/20/14 10:17:47 -- End Message/Item List Generation Phase
+INFO -- 03/20/14 10:17:47 -- Begin Ticket List Generation Phase
+DEBUG -- 03/20/14 10:17:47 -- Begin creating ticket entries
+DEBUG -- 03/20/14 10:17:47 -- Begin looping through message list
+DEBUG -- 03/20/14 10:17:47 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:17:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+ERROR -- 03/20/14 10:17:47 -- getMessageForITem ServiceException
+DEBUG -- 03/20/14 10:17:47 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:17:47 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:17:47 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:17:47 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:17:47 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:17:47 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 15:31:37 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac8+KaXYgghHyXoiR9asxO9XdxSqWg==Date: Wed, 12 Mar 2014 19:31:36 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E6763C9ITSMSXMBS4Madun_"
+DEBUG -- 03/20/14 10:17:47 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:17:47 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:17:47 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/20/14 10:17:47 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:17:47 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:17:47 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:17:48 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:17:48 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:17:48 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:17:48 -- End Show Emails Extracted
+INFO -- 03/20/14 10:18:22 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:18:22 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:18:22 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:22 -- Checking for attachments
+DEBUG -- 03/20/14 10:18:23 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:18:23 -- Retrieving messages
+DEBUG -- 03/20/14 10:18:23 -- There are 4 messages
+DEBUG -- 03/20/14 10:18:23 -- Message added to message list
+ERROR -- 03/20/14 10:18:23 -- getMessageForITem ServiceException
+DEBUG -- 03/20/14 10:18:23 -- Message added to message list
+DEBUG -- 03/20/14 10:18:23 -- Message added to message list
+ERROR -- 03/20/14 10:18:23 -- getMessageForITem ServiceException
+DEBUG -- 03/20/14 10:18:23 -- Message added to message list
+DEBUG -- 03/20/14 10:18:23 -- End retrieving messages
+INFO -- 03/20/14 10:18:23 -- End Message/Item List Generation Phase
+INFO -- 03/20/14 10:18:23 -- Begin Ticket List Generation Phase
+DEBUG -- 03/20/14 10:18:23 -- Begin creating ticket entries
+DEBUG -- 03/20/14 10:18:23 -- Begin looping through message list
+DEBUG -- 03/20/14 10:18:23 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:18:23 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:23 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:18:23 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:23 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:23 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:18:24 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:18:24 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 15:31:37 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac8+KaXYgghHyXoiR9asxO9XdxSqWg==Date: Wed, 12 Mar 2014 19:31:36 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E6763C9ITSMSXMBS4Madun_"
+DEBUG -- 03/20/14 10:18:24 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:24 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:24 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/20/14 10:18:24 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:24 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:24 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:24 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:24 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:18:24 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:24 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:18:24 -- Message contains ticket key word in subject
+DEBUG -- 03/20/14 10:18:24 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/20/14 10:18:24 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:18:24 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:24 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/20/14 10:18:24 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:24 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:27 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:27 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:27 -- Begin creating update ticket entry
+DEBUG -- 03/20/14 10:18:27 -- End adding update ticket entry to ticket list
+DEBUG -- 03/20/14 10:18:27 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:18:27 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:27 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:18:27 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:27 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:27 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:18:28 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:18:28 -- RAW Recipient Line: nullReceived: from its-msxmbs4f.ad.unc.edu ([169.254.4.95]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0158.001; Tue, 12 Nov 2013 15:57:57 -0500To: Online Help Request <OnlineHelpRequest@unc.edu>Subject: blah blahThread-Topic: blah blahThread-Index: Ac7f6dVBf2JvcxD7QYur6s//joKFbA==Date: Tue, 12 Nov 2013 20:57:57 +0000 <B93C792C48A4C04080F296225F841E142EC214AB@ITS-MSXMBS4F.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_B93C792C48A4C04080F296225F841E142EC214ABITSMSXMBS4Fadun_"
+DEBUG -- 03/20/14 10:18:28 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:28 -- Keeping: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Removing: B93C792C48A4C04080F296225F841E142EC214AB@ITS-MSXMBS4F.ad.unc.edu
+DEBUG -- 03/20/14 10:18:28 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:28 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:28 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:28 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:28 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:18:28 -- OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:18:28 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:18:28 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Retrieving email address for display to: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:28 -- Resolved Name for OnlineHelpRequest@unc.edu is: ITS-OnlineHelpRequest.dg
+DEBUG -- 03/20/14 10:18:28 -- Resolved Email Address for OnlineHelpRequest@unc.edu is: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Begin Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- End Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Check email has EmailIn with email: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Email: OnlineHelpRequest@unc.edu has an EmailIn form
+DEBUG -- 03/20/14 10:18:28 -- Begin creating ticket entry
+DEBUG -- 03/20/14 10:18:28 -- Retrieving from address
+DEBUG -- 03/20/14 10:18:28 -- End retrieving from address
+DEBUG -- 03/20/14 10:18:28 -- Checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:18:28 -- End checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:18:28 -- Message is not a forward
+DEBUG -- 03/20/14 10:18:28 -- Begin Query for RemedyLDAP form with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- End Query for RemedyLDAP form with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Email was found in remedy ldap with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:18:28 -- Email was found in remedy ldap with email: efrain_santiago@unc.edu
+INFO -- 03/20/14 10:18:28 -- Setting group assigned to REMEDY-ADMIN
+INFO -- 03/20/14 10:18:28 -- A Short Description was found. Using the email-in's Short Description
+INFO -- 03/20/14 10:18:28 -- No Client Problem Description found. Using the email's subject
+DEBUG -- 03/20/14 10:18:28 -- End creating ticket entry
+DEBUG -- 03/20/14 10:18:28 -- Begin adding ticket entry to ticket list
+DEBUG -- 03/20/14 10:18:28 -- End adding ticket entry to ticket list
+INFO -- 03/20/14 10:18:28 -- No longer necessary to check email-in's for recipients
+DEBUG -- 03/20/14 10:18:28 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:18:28 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:18:29 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:18:29 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:18:29 -- RAW Recipient Line: nullReceived: from its-msxmbs4f.ad.unc.edu ([169.254.4.95]) by ITS-MSXHT0.ad.unc.edu ([172.27.172.65]) with mapi id 14.03.0158.001; Tue, 12 Nov 2013 15:57:26 -0500To: Online Help Request <OnlineHelpRequest@unc.edu>Subject: ticket 2594155Thread-Topic: ticket 2594155Thread-Index: Ac7f6bb8ngv2GduPRXauAMDq4wEYFQ==Date: Tue, 12 Nov 2013 20:57:25 +0000 <B93C792C48A4C04080F296225F841E142EC2149E@ITS-MSXMBS4F.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT0.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_B93C792C48A4C04080F296225F841E142EC2149EITSMSXMBS4Fadun_"
+DEBUG -- 03/20/14 10:18:29 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:29 -- Keeping: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Removing: B93C792C48A4C04080F296225F841E142EC2149E@ITS-MSXMBS4F.ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:29 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:29 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:29 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:29 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:18:29 -- OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:18:29 -- Message contains ticket key word in subject
+DEBUG -- 03/20/14 10:18:29 -- Ticket extracted and padded from subject line: 000000002594155
+DEBUG -- 03/20/14 10:18:29 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:18:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Retrieving email address for display to: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:29 -- Resolved Name for OnlineHelpRequest@unc.edu is: ITS-OnlineHelpRequest.dg
+DEBUG -- 03/20/14 10:18:29 -- Resolved Email Address for OnlineHelpRequest@unc.edu is: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Begin Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- End Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Check email has EmailIn with email: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Begin creating update ticket entry
+DEBUG -- 03/20/14 10:18:29 -- End adding update ticket entry to ticket list
+DEBUG -- 03/20/14 10:18:29 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:18:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:18:29 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:29 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:29 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:18:30 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:18:30 -- RAW Recipient Line: nullReceived: from its-msxmbs5m.ad.unc.edu ([169.254.9.155]) by ITS-MSXHT7F.ad.unc.edu ([152.2.79.192]) with mapi id 14.03.0158.001; Thu, 24 Oct 2013 09:45:55 -0400To: ITS_remsec.dg <remsec@unc.edu>Subject: inquiry about connecting a computerThread-Topic: inquiry about connecting a computerThread-Index: AQHO0L9cwJyT3w4xski5Ycqj7oFkMQ==Date: Thu, 24 Oct 2013 13:45:55 +0000 <8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT7F.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_CE8E9CBE17C75securityuncedu_"
+DEBUG -- 03/20/14 10:18:30 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:30 -- Keeping: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Removing: 8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:18:30 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:30 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:18:30 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:18:30 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:18:30 -- remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:18:30 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:18:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Retrieving email address for display to: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for remsec@unc.edu is: ITS_remsec.dg
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for remsec@unc.edu is: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Begin Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- End Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Check email has EmailIn with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Email: remsec@unc.edu has an EmailIn form
+DEBUG -- 03/20/14 10:18:30 -- Begin creating ticket entry
+DEBUG -- 03/20/14 10:18:30 -- Retrieving from address
+DEBUG -- 03/20/14 10:18:30 -- End retrieving from address
+DEBUG -- 03/20/14 10:18:30 -- Checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:18:30 -- End checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:18:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Retrieving email address for display to: Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Albert S Baldwin  Jr (abaldwin)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: albert_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Angelia G Baldwin (angeliab)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: angelia.baldwin@unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Angelo M Baldwin (ambaldwi)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: Angelo.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Antoine L Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: ABaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Arlisha L Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: ABaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Arnold R Baldwin (arbaldwi)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: Arnold.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Belinda G Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: BGBaldwi@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Bes Pittman Baldwin (lbaldwin)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: bes_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Billue F Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: BFBaldwi@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Brandy G Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: BBaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Brenda Baldwin
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: BBaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Bruce Baldwin (jbbaldwi)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: bruce_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:30 -- Resolved Name for Baldwin is: Caroline Baldwin (caro1ine)
+DEBUG -- 03/20/14 10:18:30 -- Resolved Email Address for Baldwin is: caro1ine@live.unc.edu
+DEBUG -- 03/20/14 10:18:30 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Carrie Ann Baldwin (cabaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: Carrie_Baldwin@unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Charlotte Baldwin (praisego)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: charlotte_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Geoffrey V Baldwin (gvbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: gbaldwin@unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Jacob Allen Baldwin (jabaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jabaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: James Baldwin (jcbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jcbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Janay Jean Baldwin (jjbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jjbaldwi@email.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Jazmine Elizabeth Baldwin (jballin1)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jballin1@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Jean Baldwin (baldwin1)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: baldwin1@email.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Joey L Baldwin (joeyb)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: Joey.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Justin Tyler Baldwin (jtbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jtbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Kendra Badger Baldwin (kendrabb)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: kendrabb@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Latisha P Baldwin (lpbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: lpbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Maddy Baldwin (wmbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: wmbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Matt Baldwin (baldwims)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: baldwims@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Matthew James Cooper (coopermj)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: matthew_cooper@med.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Meghan N Baldwin
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: mbaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Melonie D Baldwin (mdbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: mdbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Mr Jacob G Baldwin (jgbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: jgbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Mr Seth Baldwin (sethb35)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: sethb35@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Ms Domonique Baldwin (hacakd)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: hacakd@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Ms Lane Baldwin (albaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: lane_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Ms Lauren Baldwin (lmbaldw)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: lmbaldw@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Ms Lydia Baldwin (baldwin3)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: baldwin3@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Myria D Baldwin
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: MBaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Nellie M Baldwin-Walden (cpwalden)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: NWalden@unch.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Pamela A Baldwin (pabaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: Pamela_Baldwin@unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Richard Anthony Baldwin (tonyb)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: tonybaldwin@unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Rosecrans B Baldwin (rbaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: rbaldwi@email.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Ruth Ann Lennek Baldwin (rabaldwi)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: ruth_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Seth E Baldwin (sethba)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: sethba@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Sherrie Rogers Baldwin (slrogers)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: sherrie_baldwin@unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for Baldwin is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for Baldwin is: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:18:31 -- Email is forwarded from: tdlbal@live.unc.edu Using forwarded from address
+DEBUG -- 03/20/14 10:18:31 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Retrieving email address for display to: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:18:31 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:18:31 -- Resolved Email Address for tdlbal@live.unc.edu is: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:18:31 -- End setting forwarded fromEmailAddress
+DEBUG -- 03/20/14 10:18:31 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Email was not found in remedy ldap with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:18:31 -- Retrieving exchange name for email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:32 -- Resolving within mailbox logic
+DEBUG -- 03/20/14 10:18:32 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:18:32 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:18:32 -- Email was found in remedy ldap with email: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:18:32 -- Setting group assigned to REMEDY-ADMIN
+INFO -- 03/20/14 10:18:32 -- A Short Description was found. Using the email-in's Short Description
+INFO -- 03/20/14 10:18:32 -- A Client Problem Description was found. Using the email-in's Client Problem Description
+DEBUG -- 03/20/14 10:18:32 -- End creating ticket entry
+DEBUG -- 03/20/14 10:18:32 -- Begin adding ticket entry to ticket list
+DEBUG -- 03/20/14 10:18:32 -- End adding ticket entry to ticket list
+INFO -- 03/20/14 10:18:32 -- No longer necessary to check email-in's for recipients
+DEBUG -- 03/20/14 10:18:32 -- End looping through message list
+INFO -- 03/20/14 10:18:32 -- End Ticket List Generation Phase
+INFO -- 03/20/14 10:18:32 -- Begin Ticket Generation Phase
+DEBUG -- 03/20/14 10:18:32 -- Update tickets set to true
+DEBUG -- 03/20/14 10:18:32 -- Begin looping through ticket list
+DEBUG -- 03/20/14 10:18:32 -- Begin updateRFSTicket
+DEBUG -- 03/20/14 10:18:32 -- END updateRFSTicket
+INFO -- 03/20/14 10:18:32 -- allowing messages to be moved
+DEBUG -- 03/20/14 10:18:32 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCrAAA= to Processed folder
+DEBUG -- 03/20/14 10:18:32 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+ERROR -- 03/20/14 10:18:33 -- moveMessage error with moving item
+INFO -- 03/20/14 10:19:13 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:19:13 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:19:13 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:14 -- Checking for attachments
+ERROR -- 03/20/14 10:19:14 -- Error stripping attachmentsService Unavailable
+DEBUG -- 03/20/14 10:19:14 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:19:14 -- Retrieving messages
+DEBUG -- 03/20/14 10:19:14 -- There are 4 messages
+INFO -- 03/20/14 10:19:14 -- allowed email list is not in use
+INFO -- 03/20/14 10:19:14 -- spam email list is not in use
+DEBUG -- 03/20/14 10:19:14 -- Message added to message list
+INFO -- 03/20/14 10:19:14 -- allowed email list is not in use
+INFO -- 03/20/14 10:19:14 -- spam email list is not in use
+DEBUG -- 03/20/14 10:19:14 -- Message added to message list
+INFO -- 03/20/14 10:19:14 -- allowed email list is not in use
+INFO -- 03/20/14 10:19:14 -- spam email list is not in use
+DEBUG -- 03/20/14 10:19:14 -- Message added to message list
+INFO -- 03/20/14 10:19:15 -- allowed email list is not in use
+INFO -- 03/20/14 10:19:15 -- spam email list is not in use
+DEBUG -- 03/20/14 10:19:15 -- Message added to message list
+DEBUG -- 03/20/14 10:19:15 -- End retrieving messages
+INFO -- 03/20/14 10:19:15 -- End Message/Item List Generation Phase
+INFO -- 03/20/14 10:19:15 -- Begin Ticket List Generation Phase
+DEBUG -- 03/20/14 10:19:15 -- Begin creating ticket entries
+DEBUG -- 03/20/14 10:19:15 -- Begin looping through message list
+DEBUG -- 03/20/14 10:19:15 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:19:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:19:15 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:19:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:19:15 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:19:15 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 15:31:37 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac8+KaXYgghHyXoiR9asxO9XdxSqWg==Date: Wed, 12 Mar 2014 19:31:36 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E6763C9ITSMSXMBS4Madun_"
+DEBUG -- 03/20/14 10:19:15 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:19:15 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:19:15 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:19:15 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:19:15 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:19:15 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:19:15 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:19:15 -- Message contains ticket key word in subject
+DEBUG -- 03/20/14 10:19:15 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/20/14 10:19:15 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:19:15 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/20/14 10:19:15 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:15 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:17 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:17 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:17 -- Begin creating update ticket entry
+DEBUG -- 03/20/14 10:19:17 -- End adding update ticket entry to ticket list
+DEBUG -- 03/20/14 10:19:17 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:19:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:17 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:19:17 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:19:17 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:19:17 -- Begin downloading message as eml file
+ERROR -- 03/20/14 10:19:17 -- getMessageForITem ServiceException
+INFO -- 03/20/14 10:41:16 -- BEGIN JMEWSR
+INFO -- 03/20/14 10:41:16 -- Begin Message/Item List Generation Phase
+DEBUG -- 03/20/14 10:41:16 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:16 -- Checking for attachments
+DEBUG -- 03/20/14 10:41:17 -- Retrieving inbox items for download
+DEBUG -- 03/20/14 10:41:17 -- Retrieving messages
+DEBUG -- 03/20/14 10:41:17 -- There are 4 messages
+INFO -- 03/20/14 10:41:17 -- allowed email list is not in use
+INFO -- 03/20/14 10:41:17 -- spam email list is not in use
+DEBUG -- 03/20/14 10:41:17 -- Message added to message list
+INFO -- 03/20/14 10:41:17 -- allowed email list is not in use
+INFO -- 03/20/14 10:41:17 -- spam email list is not in use
+DEBUG -- 03/20/14 10:41:17 -- Message added to message list
+INFO -- 03/20/14 10:41:18 -- allowed email list is not in use
+INFO -- 03/20/14 10:41:18 -- spam email list is not in use
+DEBUG -- 03/20/14 10:41:18 -- Message added to message list
+INFO -- 03/20/14 10:41:19 -- allowed email list is not in use
+INFO -- 03/20/14 10:41:19 -- spam email list is not in use
+DEBUG -- 03/20/14 10:41:19 -- Message added to message list
+DEBUG -- 03/20/14 10:41:19 -- End retrieving messages
+INFO -- 03/20/14 10:41:19 -- End Message/Item List Generation Phase
+INFO -- 03/20/14 10:41:19 -- Begin Ticket List Generation Phase
+DEBUG -- 03/20/14 10:41:19 -- Begin creating ticket entries
+DEBUG -- 03/20/14 10:41:19 -- Begin looping through message list
+DEBUG -- 03/20/14 10:41:19 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:41:19 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:41:20 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:20 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:41:20 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:41:20 -- RAW Recipient Line: nullReceived: from ITS-MSXMBS4M.ad.unc.edu ([169.254.2.133]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0174.001; Wed, 12 Mar 2014 15:31:37 -0400To: its_remedy-test.svc <its_remedy-test.svc@ad.unc.edu>Subject: Ticket 2596708Thread-Topic: Ticket 2596708Thread-Index: Ac8+KaXYgghHyXoiR9asxO9XdxSqWg==Date: Wed, 12 Mar 2014 19:31:36 +0000 <94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_94C442C7036E9A48BFAC861A66B7B3DC8E6763C9ITSMSXMBS4Madun_"
+DEBUG -- 03/20/14 10:41:20 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:20 -- Keeping: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- Removing: 94C442C7036E9A48BFAC861A66B7B3DC8E6763C9@ITS-MSXMBS4M.ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:20 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:20 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:20 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:20 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:41:20 -- its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:41:20 -- Message contains ticket key word in subject
+DEBUG -- 03/20/14 10:41:20 -- Ticket extracted and padded from subject line: 000000002596708
+DEBUG -- 03/20/14 10:41:20 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:41:20 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:20 -- Retrieving email address for display to: its_remedy-test.svc@ad.unc.edu
+INFO -- 03/20/14 10:41:21 -- Failed to retrieve email address for display to: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:21 -- Begin Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:22 -- End Query for EmailIn form with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:22 -- Check email has EmailIn with email: its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:22 -- Begin creating update ticket entry
+DEBUG -- 03/20/14 10:41:22 -- End adding update ticket entry to ticket list
+DEBUG -- 03/20/14 10:41:22 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:41:22 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:22 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:41:22 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:22 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:22 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:41:23 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:41:23 -- RAW Recipient Line: nullReceived: from its-msxmbs4f.ad.unc.edu ([169.254.4.95]) by ITS-MSXHT3.ad.unc.edu ([172.27.172.154]) with mapi id 14.03.0158.001; Tue, 12 Nov 2013 15:57:57 -0500To: Online Help Request <OnlineHelpRequest@unc.edu>Subject: blah blahThread-Topic: blah blahThread-Index: Ac7f6dVBf2JvcxD7QYur6s//joKFbA==Date: Tue, 12 Nov 2013 20:57:57 +0000 <B93C792C48A4C04080F296225F841E142EC214AB@ITS-MSXMBS4F.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT3.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_B93C792C48A4C04080F296225F841E142EC214ABITSMSXMBS4Fadun_"
+DEBUG -- 03/20/14 10:41:23 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:23 -- Keeping: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Removing: B93C792C48A4C04080F296225F841E142EC214AB@ITS-MSXMBS4F.ad.unc.edu
+DEBUG -- 03/20/14 10:41:23 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:23 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:23 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:23 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:23 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:41:23 -- OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:41:23 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:41:23 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Retrieving email address for display to: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:23 -- Resolved Name for OnlineHelpRequest@unc.edu is: ITS-OnlineHelpRequest.dg
+DEBUG -- 03/20/14 10:41:23 -- Resolved Email Address for OnlineHelpRequest@unc.edu is: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Begin Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- End Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Check email has EmailIn with email: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Email: OnlineHelpRequest@unc.edu has an EmailIn form
+DEBUG -- 03/20/14 10:41:23 -- Begin creating ticket entry
+DEBUG -- 03/20/14 10:41:23 -- Retrieving from address
+DEBUG -- 03/20/14 10:41:23 -- End retrieving from address
+DEBUG -- 03/20/14 10:41:23 -- Checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:41:23 -- End checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:41:23 -- Message is not a forward
+DEBUG -- 03/20/14 10:41:23 -- Begin Query for RemedyLDAP form with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- End Query for RemedyLDAP form with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Email was found in remedy ldap with email: efrain_santiago@unc.edu
+DEBUG -- 03/20/14 10:41:23 -- Email was found in remedy ldap with email: efrain_santiago@unc.edu
+INFO -- 03/20/14 10:41:23 -- Setting group assigned to REMEDY-ADMIN
+INFO -- 03/20/14 10:41:23 -- A Short Description was found. Using the email-in's Short Description
+INFO -- 03/20/14 10:41:23 -- No Client Problem Description found. Using the email's subject
+DEBUG -- 03/20/14 10:41:23 -- End creating ticket entry
+DEBUG -- 03/20/14 10:41:23 -- Begin adding ticket entry to ticket list
+DEBUG -- 03/20/14 10:41:23 -- End adding ticket entry to ticket list
+INFO -- 03/20/14 10:41:23 -- No longer necessary to check email-in's for recipients
+DEBUG -- 03/20/14 10:41:23 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:41:23 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:24 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:41:24 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:24 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:24 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:41:24 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:41:24 -- RAW Recipient Line: nullReceived: from its-msxmbs4f.ad.unc.edu ([169.254.4.95]) by ITS-MSXHT0.ad.unc.edu ([172.27.172.65]) with mapi id 14.03.0158.001; Tue, 12 Nov 2013 15:57:26 -0500To: Online Help Request <OnlineHelpRequest@unc.edu>Subject: ticket 2594155Thread-Topic: ticket 2594155Thread-Index: Ac7f6bb8ngv2GduPRXauAMDq4wEYFQ==Date: Tue, 12 Nov 2013 20:57:25 +0000 <B93C792C48A4C04080F296225F841E142EC2149E@ITS-MSXMBS4F.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT0.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_B93C792C48A4C04080F296225F841E142EC2149EITSMSXMBS4Fadun_"
+DEBUG -- 03/20/14 10:41:24 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:24 -- Keeping: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:24 -- Removing: B93C792C48A4C04080F296225F841E142EC2149E@ITS-MSXMBS4F.ad.unc.edu
+DEBUG -- 03/20/14 10:41:24 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:24 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:24 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:24 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:24 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:41:24 -- OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:24 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:41:24 -- Message contains ticket key word in subject
+DEBUG -- 03/20/14 10:41:24 -- Ticket extracted and padded from subject line: 000000002594155
+DEBUG -- 03/20/14 10:41:24 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:41:24 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:24 -- Retrieving email address for display to: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:25 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:25 -- Resolved Name for OnlineHelpRequest@unc.edu is: ITS-OnlineHelpRequest.dg
+DEBUG -- 03/20/14 10:41:25 -- Resolved Email Address for OnlineHelpRequest@unc.edu is: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:25 -- Begin Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- End Query for EmailIn form with email: onlinehelprequest@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Check email has EmailIn with email: OnlineHelpRequest@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Begin creating update ticket entry
+DEBUG -- 03/20/14 10:41:26 -- End adding update ticket entry to ticket list
+DEBUG -- 03/20/14 10:41:26 -- Begin Retrieving message from message list
+DEBUG -- 03/20/14 10:41:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:26 -- End Retrieving message from message list
+DEBUG -- 03/20/14 10:41:26 -- Retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Begin downloading message as eml file
+DEBUG -- 03/20/14 10:41:26 -- End downloading message as eml file
+DEBUG -- 03/20/14 10:41:26 -- RAW Recipient Line: nullReceived: from its-msxmbs5m.ad.unc.edu ([169.254.9.155]) by ITS-MSXHT7F.ad.unc.edu ([152.2.79.192]) with mapi id 14.03.0158.001; Thu, 24 Oct 2013 09:45:55 -0400To: ITS_remsec.dg <remsec@unc.edu>Subject: inquiry about connecting a computerThread-Topic: inquiry about connecting a computerThread-Index: AQHO0L9cwJyT3w4xski5Ycqj7oFkMQ==Date: Thu, 24 Oct 2013 13:45:55 +0000 <8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu>Accept-Language: en-USContent-Language: en-USX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-MS-Exchange-Organization-AuthSource: ITS-MSXHT7F.ad.unc.eduX-MS-Has-Attach:X-Auto-Response-Suppress: DR, OOF, AutoReplyX-MS-TNEF-Correlator:x-originating-ip: [152.19.236.2]Content-Type: multipart/alternative;	boundary="_000_CE8E9CBE17C75securityuncedu_"
+DEBUG -- 03/20/14 10:41:26 -- Begin removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:26 -- Keeping: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Removing: 8CBD110A198DA240B6FC6D87396F8CFF31AE8725@ITS-MSXMBS5M.ad.unc.edu
+DEBUG -- 03/20/14 10:41:26 -- End removing email non-relevant email addresses (greater than 40 characters in length)
+DEBUG -- 03/20/14 10:41:26 -- Begin removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:26 -- End removing duplicate email addresses from list
+DEBUG -- 03/20/14 10:41:26 -- End retrieving recipients from eml file
+DEBUG -- 03/20/14 10:41:26 -- Begin Show Emails Extrated
+DEBUG -- 03/20/14 10:41:26 -- remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- End Show Emails Extracted
+DEBUG -- 03/20/14 10:41:26 -- Begin get info from EmailIn form
+DEBUG -- 03/20/14 10:41:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Retrieving email address for display to: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:26 -- Resolved Name for remsec@unc.edu is: ITS_remsec.dg
+DEBUG -- 03/20/14 10:41:26 -- Resolved Email Address for remsec@unc.edu is: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Begin Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- End Query for EmailIn form with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Check email has EmailIn with email: remsec@unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Email: remsec@unc.edu has an EmailIn form
+DEBUG -- 03/20/14 10:41:26 -- Begin creating ticket entry
+DEBUG -- 03/20/14 10:41:26 -- Retrieving from address
+DEBUG -- 03/20/14 10:41:26 -- End retrieving from address
+DEBUG -- 03/20/14 10:41:26 -- Checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:41:26 -- End checking if message is a forward (line only method)
+DEBUG -- 03/20/14 10:41:26 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:26 -- Retrieving email address for display to: Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Albert S Baldwin  Jr (abaldwin)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: albert_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Angelia G Baldwin (angeliab)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: angelia.baldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Angelo M Baldwin (ambaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: Angelo.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Antoine L Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: ABaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Arlisha L Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: ABaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Arnold R Baldwin (arbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: Arnold.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Belinda G Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: BGBaldwi@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Bes Pittman Baldwin (lbaldwin)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: bes_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Billue F Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: BFBaldwi@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Brandy G Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: BBaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Brenda Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: BBaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Bruce Baldwin (jbbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: bruce_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Caroline Baldwin (caro1ine)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: caro1ine@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Carrie Ann Baldwin (cabaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: Carrie_Baldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Charlotte Baldwin (praisego)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: charlotte_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Geoffrey V Baldwin (gvbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: gbaldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Jacob Allen Baldwin (jabaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jabaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: James Baldwin (jcbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jcbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Janay Jean Baldwin (jjbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jjbaldwi@email.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Jazmine Elizabeth Baldwin (jballin1)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jballin1@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Jean Baldwin (baldwin1)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: baldwin1@email.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Joey L Baldwin (joeyb)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: Joey.Baldwin@facilities.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Justin Tyler Baldwin (jtbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jtbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Kendra Badger Baldwin (kendrabb)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: kendrabb@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Latisha P Baldwin (lpbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: lpbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Maddy Baldwin (wmbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: wmbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Matt Baldwin (baldwims)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: baldwims@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Matthew James Cooper (coopermj)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: matthew_cooper@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Meghan N Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: mbaldwi2@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Melonie D Baldwin (mdbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: mdbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Mr Jacob G Baldwin (jgbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: jgbaldwi@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Mr Seth Baldwin (sethb35)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: sethb35@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Ms Domonique Baldwin (hacakd)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: hacakd@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Ms Lane Baldwin (albaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: lane_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Ms Lauren Baldwin (lmbaldw)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: lmbaldw@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Ms Lydia Baldwin (baldwin3)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: baldwin3@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Myria D Baldwin
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: MBaldwin@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Nellie M Baldwin-Walden (cpwalden)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: NWalden@unch.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Pamela A Baldwin (pabaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: Pamela_Baldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Richard Anthony Baldwin (tonyb)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: tonybaldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Rosecrans B Baldwin (rbaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: rbaldwi@email.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Ruth Ann Lennek Baldwin (rabaldwi)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: ruth_baldwin@med.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Seth E Baldwin (sethba)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: sethba@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Sherrie Rogers Baldwin (slrogers)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: sherrie_baldwin@unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for Baldwin is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for Baldwin is: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:41:27 -- Email is forwarded from: tdlbal@live.unc.edu Using forwarded from address
+DEBUG -- 03/20/14 10:41:27 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Retrieving email address for display to: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Resovling within mailbox logic
+DEBUG -- 03/20/14 10:41:27 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:41:27 -- Resolved Email Address for tdlbal@live.unc.edu is: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:41:27 -- End setting forwarded fromEmailAddress
+DEBUG -- 03/20/14 10:41:27 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Email was not found in remedy ldap with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:27 -- Begin Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:28 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:28 -- Retrieving exchange name for email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:28 -- Resolving within mailbox logic
+DEBUG -- 03/20/14 10:41:28 -- Resolved Name for tdlbal@live.unc.edu is: Tonya Baldwin (tdlbal)
+DEBUG -- 03/20/14 10:41:28 -- End Query for RemedyLDAP form with email: tdlbal@live.unc.edu
+DEBUG -- 03/20/14 10:41:28 -- Email was found in remedy ldap with email: tdlbal@live.unc.edu
+INFO -- 03/20/14 10:41:28 -- Setting group assigned to REMEDY-ADMIN
+INFO -- 03/20/14 10:41:28 -- A Short Description was found. Using the email-in's Short Description
+INFO -- 03/20/14 10:41:28 -- A Client Problem Description was found. Using the email-in's Client Problem Description
+DEBUG -- 03/20/14 10:41:28 -- End creating ticket entry
+DEBUG -- 03/20/14 10:41:28 -- Begin adding ticket entry to ticket list
+DEBUG -- 03/20/14 10:41:28 -- End adding ticket entry to ticket list
+INFO -- 03/20/14 10:41:28 -- No longer necessary to check email-in's for recipients
+DEBUG -- 03/20/14 10:41:28 -- End looping through message list
+INFO -- 03/20/14 10:41:28 -- End Ticket List Generation Phase
+INFO -- 03/20/14 10:41:28 -- Begin Ticket Generation Phase
+DEBUG -- 03/20/14 10:41:28 -- Update tickets set to true
+DEBUG -- 03/20/14 10:41:28 -- Begin looping through ticket list
+DEBUG -- 03/20/14 10:41:28 -- Begin updateRFSTicket
+DEBUG -- 03/20/14 10:41:28 -- END updateRFSTicket
+INFO -- 03/20/14 10:41:28 -- allowing messages to be moved
+DEBUG -- 03/20/14 10:41:28 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCrAAA= to Processed folder
+DEBUG -- 03/20/14 10:41:28 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:29 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjPAAAA= to Processed successfully
+DEBUG -- 03/20/14 10:41:29 -- End moving message
+DEBUG -- 03/20/14 10:41:29 -- Begin add entry id to entry id list
+DEBUG -- 03/20/14 10:41:29 -- End add entry id to entry id list
+DEBUG -- 03/20/14 10:41:29 -- Begin createRFSTicket
+DEBUG -- 03/20/14 10:41:30 -- END createRFSTicket
+INFO -- 03/20/14 10:41:30 -- allowing messages to be moved
+DEBUG -- 03/20/14 10:41:30 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCsAAA= to Processed folder
+DEBUG -- 03/20/14 10:41:30 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:30 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjPBAAA= to Processed successfully
+DEBUG -- 03/20/14 10:41:30 -- End moving message
+DEBUG -- 03/20/14 10:41:30 -- Begin add entry id to entry id list
+DEBUG -- 03/20/14 10:41:30 -- End add entry id to entry id list
+DEBUG -- 03/20/14 10:41:30 -- Begin updateRFSTicket
+ERROR -- 03/20/14 10:41:31 -- updateRFSTicket entry ARException
+ERROR -- 03/20/14 10:41:31 -- ERROR (302): Entry does not exist in database; 
+ERROR -- 03/20/14 10:41:31 -- ERROR (302): Entry does not exist in database; 
+DEBUG -- 03/20/14 10:41:31 -- END updateRFSTicket
+INFO -- 03/20/14 10:41:31 -- allowing messages to be moved
+DEBUG -- 03/20/14 10:41:31 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCtAAA= to Processed folder
+DEBUG -- 03/20/14 10:41:31 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:31 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjPCAAA= to Processed successfully
+DEBUG -- 03/20/14 10:41:31 -- End moving message
+DEBUG -- 03/20/14 10:41:31 -- Begin add entry id to entry id list
+DEBUG -- 03/20/14 10:41:31 -- End add entry id to entry id list
+DEBUG -- 03/20/14 10:41:31 -- Begin createRFSTicket
+DEBUG -- 03/20/14 10:41:33 -- END createRFSTicket
+INFO -- 03/20/14 10:41:33 -- allowing messages to be moved
+DEBUG -- 03/20/14 10:41:33 -- Begin moving message with message id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAAADcF0AAD2dhzCVHEoR51SbtuLheSXAGfuRVCuAAA= to Processed folder
+DEBUG -- 03/20/14 10:41:33 -- Setting service to https://outlook.unc.edu/ews/Exchange.asmx with user its_remedy-test.svc@ad.unc.edu
+DEBUG -- 03/20/14 10:41:33 -- Moved message with id: AAMkADNhYWZmOGYzLTc2NTItNDhiYS04NDFhLTkxMzE2NWVmZWIxMABGAAAAAADXRDZEY3CARagT19sH9lR0BwB9CF8PeEB0R4Fgo/XD41eMAAARJLdBAAB9CF8PeEB0R4Fgo/XD41eMAABAdjPDAAA= to Processed successfully
+DEBUG -- 03/20/14 10:41:33 -- End moving message
+DEBUG -- 03/20/14 10:41:33 -- Begin add entry id to entry id list
+DEBUG -- 03/20/14 10:41:33 -- End add entry id to entry id list
+DEBUG -- 03/20/14 10:41:33 -- End looping through ticket list
+INFO -- 03/20/14 10:41:33 -- End Ticket Generation Phase
+INFO -- 03/20/14 10:41:33 -- Begin ticket (entry id) dump
+INFO -- 03/20/14 10:41:33 -- 000000002596708
+INFO -- 03/20/14 10:41:33 -- 000000002596791
+INFO -- 03/20/14 10:41:33 -- 000000002594155
+INFO -- 03/20/14 10:41:33 -- 000000002596792
+INFO -- 03/20/14 10:41:33 -- End ticket (entry id) dump
+INFO -- 03/20/14 10:41:33 -- END JMEWSR

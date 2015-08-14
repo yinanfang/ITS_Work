@@ -1,0 +1,144 @@
+package vega.interactors;
+
+import vega.config.configuration;
+import vega.listers.entryIdList;
+import vega.listers.ticketList;
+import vega.ticket.ticketEntry;
+import vega.logging.*;
+
+import com.bmc.arsys.api.*;
+import com.independentsoft.exchange.ItemId;
+
+public class ticketer extends remedy
+{
+	private logger logger = new logger();
+	
+	public ticketer ( )
+	{
+		
+	}
+	
+	public entryIdList delegator ( ticketList tl )
+	{
+		configuration conf = new configuration();
+		if ( conf.getAllowUpdates() == false ) {
+			logger.log("DEBUG", "Update tickets set to false");
+		} else {
+			logger.log("DEBUG", "Update tickets set to true");
+		}
+		entryIdList eil = new entryIdList();
+		logger.log("DEBUG", "Begin looping through ticket list");
+		while ( tl.hasNext() ) {
+			ticketEntry te = tl.getTicketEntry();
+			if ( te.getSysintreqnum() != null ) {
+				if ( conf.getAllowUpdates() ) {
+					logger.log("DEBUG", "Begin updateRFSTicket");
+					String entryId = updateRFSTicket(te);
+					logger.log("DEBUG", "END updateRFSTicket");
+					//Can move message?
+					if ( conf.getAllowMoveMessage() ) {
+						logger.log("INFO", "allowing messages to be moved");
+						boolean success = moveMessage(entryId, te);
+					} else {
+						logger.log("INFO", "not allowing messages to be moved");
+					}
+					
+					logger.log("DEBUG", "Begin add entry id to entry id list");
+					eil.addEntry(entryId);
+					logger.log("DEBUG", "End add entry id to entry id list");
+				}
+			} else {
+				logger.log("DEBUG", "Begin createRFSTicket");
+				String entryId = createRFSTicket(te);
+				logger.log("DEBUG", "END createRFSTicket");
+				//Can move message?
+				if ( conf.getAllowMoveMessage() ) {
+					logger.log("INFO", "allowing messages to be moved");
+					boolean success = moveMessage(entryId, te);
+				} else {
+					logger.log("INFO", "not allowing messages to be moved");
+				}
+				
+				logger.log("DEBUG", "Begin add entry id to entry id list");
+				eil.addEntry(entryId);
+				logger.log("DEBUG", "End add entry id to entry id list");
+			}
+		}
+		logger.log("DEBUG", "End looping through ticket list");
+		
+		return eil;
+	}
+	
+	private String createRFSTicket ( ticketEntry te )
+	{
+		connect();
+		String entryId = "";
+		try {
+			entryId = this.context.createEntry("UNC-Request for Service", te.getEntry());
+			ticketEntry updateTe = new ticketEntry();
+			updateTe.setEntry(this.context.getEntry("UNC-Request for Service", entryId, null));
+			updateTe.setSysintreqnum(entryId); //Is this value already set with setEntry?
+			updateTe.setWorklog("");
+			this.context.setEntry("UNC-Request for Service", entryId, updateTe.getEntry(), null, 0);
+		} catch ( ARException arException ) {
+			logger.log("ERROR", "createRFSTicket entry ARException");
+			arException.printStackTrace();
+		}
+		
+		return entryId;
+	}
+	
+	private String updateRFSTicket ( ticketEntry te )
+	{
+		connect();
+		String entryId = te.getSysintreqnum();
+		try { 
+			ticketEntry updateTe = new ticketEntry();
+			updateTe.setEntry(this.context.getEntry("UNC-Request for Service", entryId, null));
+			updateTe.setWorklog(te.getWorklog());
+			//updateTe.setSysintreqnum(entryId); //Is this value already set with setEntry?
+			this.context.setEntry("UNC-Request for Service", entryId, updateTe.getEntry(), null, 0);
+		} catch ( ARException arException ) {
+			logger.log("ERROR", "updateRFSTicket entry ARException");
+			arException.printStackTrace();
+			logger.log("ERROR", arException.toString());
+			logger.log("ERROR", arException.getMessage());
+			
+		}
+		
+		return entryId;
+	}
+	
+	private boolean moveMessage ( String entryId, ticketEntry te )
+	{
+		boolean moved = false;
+		
+		if ( entryId != "" ) {
+			logger.log("DEBUG", "Begin moving message with message id: "+te.getMessageId()+" to Processed folder");
+			ews ews = new ews();
+			ItemId id = ews.moveMessage(te.getMessageId(), "Processed");
+			if ( id != null ) {
+				logger.log("DEBUG", "Moved message with id: "+id.getId()+" to Processed successfully");
+				moved = true;
+			} else {
+				logger.log("DEBUG", "Moved message with id: "+id.getId()+" to Processed unsuccessfully");
+				moved = false;
+			}
+			logger.log("DEBUG", "End moving message");
+		} else {
+			logger.log("DEBUG", "Begin moving message with message id: "+te.getMessageId()+" to Not-Processed folder");
+			ews ews = new ews();
+			ItemId id = ews.moveMessage(te.getMessageId(), "Not-Processed");
+			if ( id != null ) {
+				logger.log("DEBUG", "Moved message with id: "+id.getId()+" to Not-Processed successfully");
+				moved = true;
+			} else {
+				logger.log("DEBUG", "Moved message with id: "+id.getId()+" to Not-Processed unsuccessfully");
+				moved = false;
+			}
+			logger.log("DEBUG", "End moving message");
+		}
+		
+		return moved;
+	}
+}

@@ -1,0 +1,31 @@
+#Sat Jan 16 17:18:35 CET 2010
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+spelling_ignore_urls=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+spelling_ignore_non_letters=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_ignore_ampersand_in_properties=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+spelling_ignore_single_letters=true
+fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+spelling_user_dictionary_encoding=
+spelling_ignore_mixed=true
+spelling_ignore_java_strings=true
+org.eclipse.jdt.ui.formatterprofiles.version=11
+content_assist_proposals_background=255,255,255
+content_assist_number_of_computers=16
+spelling_ignore_digits=true
+spelling_ignore_upper=true
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.independentsoft.exchange.MimeContent"><rhs name\="com.independentsoft.exchange.MimeContent"/></lhs><lhs name\="com.independentsoft.exchange.Item"><rhs name\="com.independentsoft.exchange.Message"/></lhs><lhs name\="com.independentsoft.exchange.Message"><rhs name\="com.independentsoft.exchange.Message"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.FileInputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.lang.Enum"><rhs name\="com.independentsoft.exchange.RequestServerVersion"/><rhs name\="com.independentsoft.exchange.StandardFolder"/></lhs><lhs name\="java.io.Writer"><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.FileWriter"/><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.BufferedWriter"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="com.independentsoft.exchange.TimeDuration"><rhs name\="com.independentsoft.exchange.TimeDuration"/></lhs></history>
+spelling_ignore_sentence=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true

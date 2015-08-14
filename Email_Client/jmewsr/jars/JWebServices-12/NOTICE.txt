@@ -1,0 +1,8 @@
+JWebServices for Exchange 1.2
+Copyright 2011 Independentsoft
+
+This product includes software:
+
+HttpClient - The Apache Software Foundation (http://www.apache.org/).
+Samba JCIFS - http://jcifs.samba.org/ 
+

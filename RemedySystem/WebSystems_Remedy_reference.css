@@ -1,0 +1,592 @@
+* {
+	font-size: 14px;
+}
+
+
+/** Toolbar **/
+div#toolbar {
+	background-color: #56A0D3;
+	background-image: url(https://lh5.googleusercontent.com/-gNWflHTvqtg/UwtCctjfvWI/AAAAAAAAGxo/3kwxPjMC8Wo/w990-h256-no/its_white.png), url(http://magazine.college.unc.edu/wp-content/themes/unc-magazine/images/primary_nav_bg.png);
+	background-position: 5px 4px;
+	background-repeat: no-repeat !important;
+	background-size: auto 32px !important;
+	height: 79px !important;
+	width: 100%;
+	overflow: visible;
+	border-bottom: 1px solid #ddd;
+}
+td.TBGroup {
+	height: 38px;
+	position: absolute;
+	top: 27px;
+}
+td.TBGroup a,
+td.TBGroup a:hover {
+	margin-top: 5px;
+}
+td.TBGroup0, td.TBGroup1, td.TBGroup2 {
+	border: none;
+}
+table.Toolbar {
+	width: 100%;
+}
+td.TBGroup1 {
+	left: 70px;
+}
+td.TBGroup2 {
+	right: 0;
+}
+td.TBGroup3 {
+	top: -18px;
+	right:0;
+	height: 40px;
+}
+td.TBGroup3 a,
+td.TBGroup3 a:hover {
+	float: right;
+	position: relative;
+	line-height: 40px;
+	padding: 0 15px;
+	color: #fff;
+	border: none;
+	border-radius: 0;
+}
+td.TBGroup3 a:hover {
+	background: #56A0D3;
+}
+div.TBTopBarStatus {
+	top: 40px;
+	height: 40px;
+	text-indent: -100px;
+	border-bottom: 1px solid #ddd;
+}
+a.TBTopBarBox {
+	display: none;
+}
+div.TBTopBarStatus span {
+	top: 10px;
+	left: 250px;
+	position: fixed;
+	font-size: 20px;
+	font-weight: normal;
+	display: block;
+	color: #fff;
+}
+
+div.TBTopBarStatusMode5 span:after,
+div.TBTopBarStatusMode1 span:after{
+	content: " Request";
+}
+div.TBTopBarStatusMode4 span:after,
+div.TBTopBarStatusMode6 span:after{
+	content: " Requests";
+}
+
+div.TBTopBarStatusMode1,
+div.TBTopBarStatusMmode3,
+div.TBTopBarStatusMode4,
+div.TBTopBarStatusMode5,
+div.TBTopBarStatusMode6
+ {
+	background-color: #f5f5f5;
+}
+a.tbbtn,
+a.tbbtn:hover {
+	display: block;
+	float: left;
+	margin-top: 1px;
+}
+a.tbbtn:hover {
+	border: none;
+}
+.newrequest {
+	background-image: url(http://remedy09.isis.unc.edu/arsys/resources/images/mt_sprites.gif);
+	background-position: -15px -2012px;
+	background-repeat: no-repeat;
+}
+
+
+/** Flyout Menus **/
+div.MenuOuter {
+	height: auto !important;
+	padding: 5px 0;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+td.MenuEntryName, 
+td.MenuEntryNameHover {
+	padding: 3px 10px;
+	font-size: 13px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 26px;
+}
+td.MenuEntrySub, 
+td.MenuEntrySubHover {
+	padding-right: 10px;
+}
+div.MenuTableContainer {
+	position: relative;
+}
+
+
+/** Buttons **/
+a.btn, button.btn {
+	background: none;
+}
+
+/** Tickets Table **/
+div#ResultsList {
+	top: 79px !important;
+}
+div.TableHdr,
+div.TableInner,
+div.TableFtr {
+	position: relative;
+	top: 0 !important;
+	border: none;
+}
+div.TableHdr,
+div.TableFtr {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+div.TableHdr,
+div.TableFtr {
+	background-color: #f5f5f5;
+}
+div.TableHdr,
+td.TableHdrL, 
+td.TableHdrR {
+	height: 36px;
+}
+div.TableFtr,
+td.TableFtrL,
+td.TableFtrR {
+	height: 20px;
+	font-size: 80%;
+}
+a.btn3d,
+button.btn3d,
+a.btn3ddown,
+button.btn3ddown,
+td.TableHdrR a.TableBtn {
+	padding: 5px 8px 6px;
+	border-radius: 3px;
+	border: 1px solid #f5f5f5;
+}
+a.btn3d:hover, 
+a.btn3ddown,
+a.btn3ddown:hover,
+button.btn3d:hover,
+button.btn3ddown,
+button.btn3ddown:hover,
+td.TableFtrL a.TableBtn:hover, 
+td.TableHdrR a.TableBtn:hover {
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	border: 1px solid #999;
+	color: #000;
+	text-decoration: none;
+	padding: 5px 8px 6px;
+}
+a.btnd:hover {
+	background: none;
+	border: 1px solid #f5f5f5;
+	cursor: default;
+}
+a.searchsavechanges {
+	color: #fff;
+	background-color: #4DB24C;
+	border-color: #4cae4c;
+}
+a.searchsavechanges:hover {
+	color: #fff;
+	background: #47a447;
+	border-color: #398439;
+}
+a.searchsavechanges.btnd {
+	opacity: .65;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+td.TableFtrL a.TableBtn,
+td.TableFtrL a.TableBtn:hover {
+	background: none;
+	border: none;
+	padding: 2px 4px 2px;
+	font-size: 90%;
+}
+td.TableFtrL a.TableBtn:hover {
+	color: #56A0D3;
+}
+
+table.BaseTable {
+	margin-bottom: 10px;
+	top: auto !important;
+}
+div.BaseTableBar {
+	top: 0;
+	height: 26px;
+	box-shadow: -3px 0 3px #fff;
+	background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAMCAYAAABIvGxUAAADHmlDQ1BJQ0MgUHJvZmlsZQAAeAGFVN9r01AU/tplnbDhizpnEQk+aJFuZFN0Q5y2a1e6zVrqNrchSJumbVyaxiTtfrAH2YtvOsV38Qc++QcM2YNve5INxhRh+KyIIkz2IrOemzRNJ1MDufe73/nuOSfn5F6g+XFa0xQvDxRVU0/FwvzE5BTf8gFeHEMr/GhNi4YWSiZHQA/Tsnnvs/MOHsZsdO5v36v+Y9WalQwR8BwgvpQ1xCLhWaBpXNR0E+DWie+dMTXCzUxzWKcECR9nOG9jgeGMjSOWZjQ1QJoJwgfFQjpLuEA4mGng8w3YzoEU5CcmqZIuizyrRVIv5WRFsgz28B9zg/JfsKiU6Zut5xCNbZoZTtF8it4fOX1wjOYA1cE/Xxi9QbidcFg246M1fkLNJK4RJr3n7nRpmO1lmpdZKRIlHCS8YlSuM2xp5gsDiZrm0+30UJKwnzS/NDNZ8+PtUJUE6zHF9fZLRvS6vdfbkZMH4zU+pynWf0D+vff1corleZLw67QejdX0W5I6Vtvb5M2mI8PEd1E/A0hCgo4cZCjgkUIMYZpjxKr4TBYZIkqk0ml0VHmyONY7KJOW7RxHeMlfDrheFvVbsrj24Pue3SXXjrwVhcW3o9hR7bWB6bqyE5obf3VhpaNu4Te55ZsbbasLCFH+iuWxSF5lyk+CUdd1NuaQU5f8dQvPMpTuJXYSWAy6rPBe+CpsCk+FF8KXv9TIzt6tEcuAcSw+q55TzcbsJdJM0utkuL+K9ULGGPmQMUNanb4kTZyKOfLaUAsnBneC6+biXC/XB567zF3h+rkIrS5yI47CF/VFfCHwvjO+Pl+3b4hhp9u+02TrozFa67vTkbqisXqUj9sn9j2OqhMZsrG+sX5WCCu0omNqSrN0TwADJW1Ol/MFk+8RhAt8iK4tiY+rYleQTysKb5kMXpcMSa9I2S6wO4/tA7ZT1l3maV9zOfMqcOkb/cPrLjdVBl4ZwNFzLhegM3XkCbB8XizrFdsfPJ63gJE722OtPW1huos+VqvbdC5bHgG7D6vVn8+q1d3n5H8LeKP8BqkjCtbCoV8yAAAACXBIWXMAAAsSAAALEgHS3X78AAABZ2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNC40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzY8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CsO3s+UAAAAsSURBVAgdY7x69ep/BgaGRpZNmzYBaQYGxv//QQIMDExgEpnBcu3aNQoUAwChKRhfrNwRnQAAAABJRU5ErkJggg==) center center no-repeat;
+}
+div.BaseTableBar div {
+	border: none;
+}
+div.BaseTableColHeaders {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.BaseTableInner {
+	border: none;
+	top: 0 !Important;
+}
+div.BaseTableHeader, 
+div.BaseTableHeaderDragL, 
+div.BaseTableHeaderDragR,
+div.BaseTableColHeaders {
+	height: 26px;
+}
+div.BaseTableHeader, 
+div.BaseTableHeaderDragL, 
+div.BaseTableHeaderDragR {
+	padding: 0 0 0 8px;
+	line-height: 26px;
+}
+div.BaseTableColHeaders, 
+div.BaseTableHeader {
+	background: #fff;
+	color: #000;
+	font-size: 90%;
+}
+.BaseTableInner {
+	position: relative; 
+}
+td.BaseTableCell, 
+td.BaseTableCellOdd {
+	padding: 5px 8px;
+}
+td.BaseTableCell nobr, 
+td.BaseTableCell span,
+td.BaseTableCellOdd nobr, 
+td.BaseTableCellOdd span{
+	font-size: 90%;
+}
+
+
+div#Splitter {
+	background: #bbb url(https://lh4.googleusercontent.com/-dc9gLrPLDyw/Uwum4j-UBbI/AAAAAAAAGx8/Qpoo12ObTpY/w60-h10-no/v-resize.png) no-repeat center center;
+}
+
+/** Ticket Tabs **/
+.OuterTabsDiv,
+.TabsViewPort,
+.OuterTabSelected .TabLeft, 
+.OuterTabSelected .Tab, 
+.OuterTabSelected .TabRight, 
+.OuterTabSelected .TabLeftRounded, 
+.OuterTabSelected .TabRightRounded,
+.TabLeft, 
+.Tab, 
+.TabRight, 
+.TabLeftRounded, 
+.TabRightRounded,
+.OuterOuterTab
+{
+	height: auto !important;
+	min-height: 39px;
+}
+div.TabChildMissingBorder,
+fieldset.TabChild {
+	border: none;
+}
+fieldset.TabChild {
+	margin-top: 25px;
+}
+.OuterOuterTab {
+	overflow: visible;
+	border-bottom: 1px solid #ddd;
+}
+.OuterTab .Tab, 
+.OuterTab .TabLeft, 
+.OuterTab .TabRight, 
+.ScrollingTab .Tab {
+	background: none;
+}
+.TabLeft,
+.TabRight,
+.TabLeftRounded,
+.TabRightRounded {
+	display: none;
+}
+.tab {
+	padding: 0;
+	margin: 0 3px -1px 0;
+	border: none;
+}
+.tab a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	border: 1px solid transparent;
+	border-radius: 3px 3px 0 0;
+	margin-top: 1px;
+	color: #428bca !important;
+}
+.tab a:hover {
+	background: #eee;
+	border-color: #eee #eee #ddd;
+}
+.OuterTabSelected a,
+.OuterTabSelected a:hover {
+	background: none;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	color: #333 !important;
+}
+
+/** Hidden Buttons & Text **/
+.ardbnText-Title-UNC-RFS, 
+a.ardbnBtn-Home, 
+a.ardbnBtn-Logout {
+	display: none;
+}
+
+/** Ticket/Search Fields **/
+div.ardbnBox {
+	width: 230px !important;
+	height: 680px !important;
+	background: #f5f5f5 !important;
+	border-right: 1px solid #ddd !important;
+	top: 0 !important;
+	z-index: 0 !important;
+}
+.FormContainerBackground {
+	background: none !important;
+	}
+#FormContainer {
+	background: #fff !important;
+	margin-top: 1px;
+}
+.ardbnBox-SysFields {
+	background: none !important;
+	border: none !important;
+}
+.gradient-rounded-corners,
+.gradient-no-rounded-corners {
+	background: none !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+/*************************************/
+/********* MARK FOR DELETION *********/
+/*************************************/
+/** 
+ * Just showing all the various options
+ */
+
+.ardbnTopPanel,
+.ardbnMidPanel {
+	border: none !important;
+	background: none !important;
+}
+.ardbnTopPanel a,
+.ardbnTopPanel div,
+.ardbnTopPanel span,
+.ardbnMidPanel a,
+.ardbnMidPanel div,
+.ardbnMidPanel span {
+	visibility: visible !important;
+}
+
+/***************************************/
+
+
+/** Fields **/
+textarea,
+textarea.sr,
+input[type="text"],
+div.selection input {
+	display: block;
+	height: auto !important;
+	width: 100%;
+	height: 26px;
+	padding: 4px 6px;
+	font-size: 14px;
+	line-height: 1em;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+div.selection input {
+	position: relative;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin: 0;
+	border-right: 0;
+}
+div.selection {
+	border: none;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	height: 26px !important;
+	top: 0 !important;
+}
+a.selectionbtn {
+	border-radius: 0 3px 3px 0;
+	height: 26px !important;
+	width: 20px !important;
+}
+a.selectionbtn,
+a.menu {
+	padding: 0;
+	border: 1px solid #ccc;
+}
+a.selectionbtn:hover,
+a.menu:hover {
+	padding: 0;
+}
+a.selectionbtn img,
+a.menu img {
+	position: relative !Important;
+	top: auto !important;
+	left: auto !important;
+	width: 0;
+	height: 0;
+	padding-right: 20px;
+	padding-bottom: 26px;
+	background-image: url(https://lh6.googleusercontent.com/-DIzgu7iZgTY/UwzYCVJ0QmI/AAAAAAAAGyQ/viUEx5zYkDI/w14-h8-no/black-down-arrow.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+a.menu {
+/*	 position: relative;
+	float: left;
+	top: auto !important;
+	left: auto !important; */
+}
+a.menu img {
+	padding-bottom: 21px;
+}
+
+/** Field Manual Positioning **/
+/** Marked for possible deletion **/
+.ardbnPageHolder {
+	position: relative !important;
+	top: 80px !important;
+	left: 15px !important;
+	float: right;
+}
+.ardbnTicketActionsPanel,
+.ardbnViewActionsPanel,
+.ardbnUserActionsPanel,
+.ardbnMidPanel,
+.ardbnSidePanel {
+	background: none !important;
+	border: none !important;
+}
+.ardbnSidePanel {
+	min-height: 800px !important;
+}
+.ardbnMidPanel {
+	top: 30px !important;
+}
+.ardbnViewActionsPanel a,
+.ardbnUserActionsPanel a,
+.ardbnTicketActionsPanel a {
+	position: relative !important;
+	float: left;
+	left: auto !Important;
+	top: auto !important;
+}
+
+.ardbnEntry-Id { margin-top: 20px; }
+.ardbnEntry-Id,
+.ardbnStudentorOthers, 
+.ardbnPID,
+.ardbnOnyen,
+.ardbnLastName,
+.ardbnM\.I\.,
+.ardbnFirstName,
+.ardbnEmail,
+.ardbnPhone,
+.ardbnDepartment,
+.ardbnLocation,
+.ardbnBuilding,
+.ardbnHomePhone {
+	position: relative;
+	float: left;
+	clear: left;
+	top: auto !important;
+	left: auto !important;
+	height: 50px !important;
+	margin-left: 15px;
+}
+
+.ardbnM\.I\. {
+	clear: none;
+}
+.ardbnCustomData span,
+.ardbnOnyen span,
+.ardbnBuilding span,
+.ardbnDept_Supp_Grp_Btn,
+.ardbnBtn-AdditionalInformatio {
+	position: relative !important;
+}
+.ardbnDept_Supp_Grp_Btn,
+.ardbnBtn-AdditionalInformatio {
+	top: auto !important;
+	left: auto !important;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+label.label,
+textarea.text {
+	position: relative;
+	top: auto !important;
+}
+
+/** Ticket Summary Tab **/
+.ardbnTxt-RequestInformation {
+	width: 90% !important;
+	margin-left: 15px;
+}
+.ardbnTxt-RequestInformation td {
+	color: #5C8CBB !important;
+	font-size: 15px;
+}
+.ardbnTicketSummary {
+	padding-top: 30px !important;
+}
+.ardbnTicketSummary > .df {
+	position: relative !important;
+	float: left !important;
+	top: auto !important;
+	left: auto !important;
+	width: 400px !important;
+	margin-left: 25px;
+	height: 50px !Important;
+}
+.ardbnTicketSummary > .df label {
+	clear: left;
+}
+
+/** Blank Out for when no ticket is selected **/
+div.BlankOutForm {
+	opacity: .7;
+}

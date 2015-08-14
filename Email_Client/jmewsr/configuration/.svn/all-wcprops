@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/eclipse-jmewsr/!svn/ver/15/trunk/configuration
+END
+jmewsr.conf
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eclipse-jmewsr/!svn/ver/15/trunk/configuration/jmewsr.conf
+END
+allowedemails.lst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/eclipse-jmewsr/!svn/ver/9/trunk/configuration/allowedemails.lst
+END
+spamlist.lst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eclipse-jmewsr/!svn/ver/5/trunk/configuration/spamlist.lst
+END

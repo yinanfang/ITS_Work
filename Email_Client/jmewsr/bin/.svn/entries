@@ -1,0 +1,55 @@
+8
+
+dir
+40
+https://localhost/svn/eclipse-jmewsr/trunk/src
+https://localhost/svn/eclipse-jmewsr
+
+
+
+2012-09-20T20:29:18.231445Z
+40
+jxvega
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf843b50-0ab2-ba44-be2f-9055052525e1
+
+soap.java
+file
+
+
+
+
+2012-05-08T13:55:52.645000Z
+5ba1985c82e4f7036cc19d373e23c531
+2012-04-12T15:15:35.649539Z
+2
+jxvega
+
+vega
+dir
+
+soapMessage.java
+file
+
+
+
+
+2012-05-08T13:55:53.286000Z
+5c031d09b429bc410641edf9d858688f
+2012-04-12T15:15:35.649539Z
+2
+jxvega
+
